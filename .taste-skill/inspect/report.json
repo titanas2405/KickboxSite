@@ -1,6 +1,6 @@
 {
  "url": "index.html",
- "at": "2026-10-16T18:47:05.947Z",
+ "at": "2026-10-16T18:52:35.250Z",
  "allow": [],
  "viewports": [
   {
@@ -9,19 +9,19 @@
    "load": "load",
    "screens": 8,
    "filled": [
-    0.53,
+    0.52,
     0.51,
     0.59,
     0.19,
     0.4,
     0.56,
     0.73,
-    0.8
+    1
    ],
    "motion": {
-    "elements": 40,
+    "elements": 35,
     "css": 8,
-    "transitions": 32,
+    "transitions": 27,
     "scripted": 0,
     "videos": 0,
     "playingVideos": 0
@@ -32,10 +32,10 @@
      "h": 900
     },
     "page": {
-     "height": 6631,
-     "screens": 7.4,
-     "words": 429,
-     "img": 37,
+     "height": 6922,
+     "screens": 7.7,
+     "words": 424,
+     "img": 42,
      "video": 0,
      "canvas": 0,
      "svg": 0,
@@ -44,7 +44,7 @@
      "overflowCulprits": [],
      "uiFragments": 0,
      "uiAbuse": false,
-     "realPictures": 8,
+     "realPictures": 12,
      "videoCount": 0,
      "uiPictures": 0,
      "pictureSamples": [
@@ -54,8 +54,8 @@
       "hall-bags.jpg",
       "team.jpg",
       "hall-night.jpg",
-      "sparring.jpg",
-      "kids-kick.jpg"
+      "team-event.jpg",
+      "pads-mirror.jpg"
      ],
      "blendText": 0,
      "sideScrollers": 0,
@@ -92,27 +92,6 @@
     },
     "headings": [
      {
-      "text": "CHAMPS",
-      "words": 1,
-      "chars": 6,
-      "lines": 1,
-      "size": 32,
-      "vw": 2.2,
-      "font": "Inter Tight",
-      "weight": 700,
-      "tracking": -0.03,
-      "leading": 1,
-      "upper": true,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "left",
-      "widthRatio": 0.09,
-      "top": 24,
-      "tag": "a",
-      "kind": "heading"
-     },
-     {
       "text": "Train hard, fight easy",
       "words": 4,
       "chars": 22,
@@ -134,7 +113,7 @@
       "kind": "heading"
      },
      {
-      "text": "12:42:46",
+      "text": "12:37:17",
       "words": 1,
       "chars": 8,
       "lines": 1,
@@ -279,31 +258,10 @@
       "top": 5281,
       "tag": "h2",
       "kind": "heading"
-     },
-     {
-      "text": "C H A M P S",
-      "words": 6,
-      "chars": 11,
-      "lines": 1,
-      "size": 216,
-      "vw": 15,
-      "font": "Inter Tight",
-      "weight": 700,
-      "tracking": 0,
-      "leading": 0.74,
-      "upper": false,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "center",
-      "widthRatio": 0.96,
-      "top": 5972,
-      "tag": "div",
-      "kind": "heading"
      }
     ],
     "headingSummary": {
-     "count": 10,
+     "count": 8,
      "maxLines": 3,
      "over2Lines": 0,
      "statements": 2,
@@ -324,14 +282,12 @@
       14,
       19,
       26,
-      32,
       36,
       64,
       86,
-      109,
-      216
+      109
      ],
-     "sizeCount": 9,
+     "sizeCount": 7,
      "notLoaded": [],
      "body": {
       "font": "Inter Tight",
@@ -343,10 +299,10 @@
      },
      "measureChars": 60,
      "max": {
-      "size": 216,
-      "vw": 15,
+      "size": 109.4,
+      "vw": 7.6,
       "font": "Inter Tight",
-      "text": "C"
+      "text": "Train hard,"
      },
      "monoShare": 0,
      "monoProseShare": 0,
@@ -378,33 +334,24 @@
         "s": 0,
         "l": 0.07
        }
-      },
-      {
-       "color": "#e2e2de",
-       "top": 5885,
-       "hsl": {
-        "h": 60,
-        "s": 0.06,
-        "l": 0.88
-       }
       }
      ],
      "textColors": [
       {
        "color": "#121212",
-       "share": 0.52
+       "share": 0.45
       },
       {
        "color": "#4b4b48",
-       "share": 0.21
+       "share": 0.2
       },
       {
        "color": "#efefec",
-       "share": 0.13
+       "share": 0.19
       },
       {
        "color": "#b4b4ae",
-       "share": 0.13
+       "share": 0.14
       },
       {
        "color": "#d6d6d0",
@@ -450,7 +397,7 @@
      "blurred": 0,
      "roundedBoxes": 0,
      "boxRadius": 0,
-     "squareMedia": 8,
+     "squareMedia": 12,
      "roundedMedia": 0,
      "mediaRadius": 0,
      "textShadow": 0,
@@ -465,7 +412,7 @@
     "nav": {
      "links": 4,
      "fixed": false,
-     "height": 80,
+     "height": 88,
      "floatingPill": false,
      "blur": false
     },
@@ -481,7 +428,7 @@
    "load": "load",
    "screens": 8,
    "filled": [
-    0.56,
+    0.55,
     0.68,
     0.33,
     0.35,
@@ -491,9 +438,9 @@
     0.86
    ],
    "motion": {
-    "elements": 39,
+    "elements": 35,
     "css": 8,
-    "transitions": 31,
+    "transitions": 27,
     "scripted": 0,
     "videos": 0,
     "playingVideos": 0
@@ -504,10 +451,10 @@
      "h": 1024
     },
     "page": {
-     "height": 7657,
-     "screens": 7.5,
-     "words": 429,
-     "img": 37,
+     "height": 7756,
+     "screens": 7.6,
+     "words": 424,
+     "img": 42,
      "video": 0,
      "canvas": 0,
      "svg": 0,
@@ -516,7 +463,7 @@
      "overflowCulprits": [],
      "uiFragments": 0,
      "uiAbuse": false,
-     "realPictures": 8,
+     "realPictures": 12,
      "videoCount": 0,
      "uiPictures": 0,
      "pictureSamples": [
@@ -526,8 +473,8 @@
       "hall-bags.jpg",
       "team.jpg",
       "hall-night.jpg",
-      "sparring.jpg",
-      "kids-kick.jpg"
+      "team-event.jpg",
+      "pads-mirror.jpg"
      ],
      "blendText": 0,
      "sideScrollers": 0,
@@ -564,27 +511,6 @@
     },
     "headings": [
      {
-      "text": "CHAMPS",
-      "words": 1,
-      "chars": 6,
-      "lines": 1,
-      "size": 32,
-      "vw": 4.2,
-      "font": "Inter Tight",
-      "weight": 700,
-      "tracking": -0.03,
-      "leading": 1,
-      "upper": true,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "left",
-      "widthRatio": 0.17,
-      "top": 24,
-      "tag": "a",
-      "kind": "heading"
-     },
-     {
       "text": "Train hard, fight easy",
       "words": 4,
       "chars": 22,
@@ -606,7 +532,7 @@
       "kind": "heading"
      },
      {
-      "text": "12:42:37",
+      "text": "12:37:07",
       "words": 1,
       "chars": 8,
       "lines": 1,
@@ -751,31 +677,10 @@
       "top": 6109,
       "tag": "h2",
       "kind": "heading"
-     },
-     {
-      "text": "C H A M P S",
-      "words": 6,
-      "chars": 11,
-      "lines": 1,
-      "size": 122.9,
-      "vw": 16,
-      "font": "Inter Tight",
-      "weight": 700,
-      "tracking": 0,
-      "leading": 0.74,
-      "upper": false,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "center",
-      "widthRatio": 0.96,
-      "top": 6923,
-      "tag": "div",
-      "kind": "heading"
      }
     ],
     "headingSummary": {
-     "count": 10,
+     "count": 8,
      "maxLines": 3,
      "over2Lines": 0,
      "statements": 2,
@@ -797,12 +702,10 @@
       18,
       23,
       30,
-      32,
       45,
-      86,
-      123
+      86
      ],
-     "sizeCount": 8,
+     "sizeCount": 6,
      "notLoaded": [],
      "body": {
       "font": "Inter Tight",
@@ -814,10 +717,10 @@
      },
      "measureChars": 60,
      "max": {
-      "size": 122.9,
-      "vw": 16,
+      "size": 86.4,
+      "vw": 11.3,
       "font": "Inter Tight",
-      "text": "C"
+      "text": "Train hard,"
      },
      "monoShare": 0,
      "monoProseShare": 0,
@@ -863,19 +766,19 @@
      "textColors": [
       {
        "color": "#121212",
-       "share": 0.52
+       "share": 0.46
       },
       {
        "color": "#4b4b48",
-       "share": 0.21
-      },
-      {
-       "color": "#b4b4ae",
-       "share": 0.13
+       "share": 0.2
       },
       {
        "color": "#efefec",
-       "share": 0.12
+       "share": 0.18
+      },
+      {
+       "color": "#b4b4ae",
+       "share": 0.14
       },
       {
        "color": "#d6d6d0",
@@ -921,7 +824,7 @@
      "blurred": 0,
      "roundedBoxes": 0,
      "boxRadius": 0,
-     "squareMedia": 8,
+     "squareMedia": 12,
      "roundedMedia": 0,
      "mediaRadius": 0,
      "textShadow": 0,
@@ -936,7 +839,7 @@
     "nav": {
      "links": 4,
      "fixed": false,
-     "height": 80,
+     "height": 88,
      "floatingPill": false,
      "blur": false
     },
@@ -952,20 +855,20 @@
    "load": "load",
    "screens": 9,
    "filled": [
-    0.59,
+    0.57,
     0.68,
     0.86,
     0.24,
-    0.26,
+    0.34,
     0.39,
     0.79,
     0.75,
     0.87
    ],
    "motion": {
-    "elements": 37,
+    "elements": 33,
     "css": 8,
-    "transitions": 29,
+    "transitions": 25,
     "scripted": 0,
     "videos": 0,
     "playingVideos": 0
@@ -976,10 +879,10 @@
      "h": 844
     },
     "page": {
-     "height": 7403,
+     "height": 7386,
      "screens": 8.8,
-     "words": 426,
-     "img": 37,
+     "words": 421,
+     "img": 42,
      "video": 0,
      "canvas": 0,
      "svg": 0,
@@ -988,7 +891,7 @@
      "overflowCulprits": [],
      "uiFragments": 0,
      "uiAbuse": false,
-     "realPictures": 8,
+     "realPictures": 12,
      "videoCount": 0,
      "uiPictures": 0,
      "pictureSamples": [
@@ -998,8 +901,8 @@
       "hall-bags.jpg",
       "team.jpg",
       "hall-night.jpg",
-      "sparring.jpg",
-      "kids-kick.jpg"
+      "team-event.jpg",
+      "pads-mirror.jpg"
      ],
      "blendText": 0,
      "sideScrollers": 0,
@@ -1036,27 +939,6 @@
     },
     "headings": [
      {
-      "text": "CHAMPS",
-      "words": 1,
-      "chars": 6,
-      "lines": 1,
-      "size": 32,
-      "vw": 8.2,
-      "font": "Inter Tight",
-      "weight": 700,
-      "tracking": -0.03,
-      "leading": 1,
-      "upper": true,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "left",
-      "widthRatio": 0.34,
-      "top": 24,
-      "tag": "a",
-      "kind": "heading"
-     },
-     {
       "text": "Train hard, fight easy",
       "words": 4,
       "chars": 22,
@@ -1078,7 +960,7 @@
       "kind": "heading"
      },
      {
-      "text": "12:42:26",
+      "text": "12:36:57",
       "words": 1,
       "chars": 8,
       "lines": 1,
@@ -1223,31 +1105,10 @@
       "top": 5928,
       "tag": "h2",
       "kind": "heading"
-     },
-     {
-      "text": "C H A M P S",
-      "words": 6,
-      "chars": 11,
-      "lines": 1,
-      "size": 62.4,
-      "vw": 16,
-      "font": "Inter Tight",
-      "weight": 700,
-      "tracking": 0,
-      "leading": 0.74,
-      "upper": false,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "center",
-      "widthRatio": 0.92,
-      "top": 6715,
-      "tag": "div",
-      "kind": "heading"
      }
     ],
     "headingSummary": {
-     "count": 10,
+     "count": 8,
      "maxLines": 4,
      "over2Lines": 0,
      "statements": 2,
@@ -1269,12 +1130,10 @@
       17,
       20,
       24,
-      32,
       33,
-      45,
-      62
+      45
      ],
-     "sizeCount": 8,
+     "sizeCount": 6,
      "notLoaded": [],
      "body": {
       "font": "Inter Tight",
@@ -1286,10 +1145,10 @@
      },
      "measureChars": 42,
      "max": {
-      "size": 62.4,
-      "vw": 16,
+      "size": 44.9,
+      "vw": 11.5,
       "font": "Inter Tight",
-      "text": "C"
+      "text": "Train hard,"
      },
      "monoShare": 0,
      "monoProseShare": 0,
@@ -1321,33 +1180,24 @@
         "s": 0,
         "l": 0.07
        }
-      },
-      {
-       "color": "#e2e2de",
-       "top": 6655,
-       "hsl": {
-        "h": 60,
-        "s": 0.06,
-        "l": 0.88
-       }
       }
      ],
      "textColors": [
       {
        "color": "#121212",
-       "share": 0.52
+       "share": 0.46
       },
       {
        "color": "#4b4b48",
-       "share": 0.21
-      },
-      {
-       "color": "#b4b4ae",
-       "share": 0.13
+       "share": 0.2
       },
       {
        "color": "#efefec",
-       "share": 0.12
+       "share": 0.18
+      },
+      {
+       "color": "#b4b4ae",
+       "share": 0.14
       },
       {
        "color": "#d6d6d0",
@@ -1393,7 +1243,7 @@
      "blurred": 0,
      "roundedBoxes": 0,
      "boxRadius": 0,
-     "squareMedia": 8,
+     "squareMedia": 12,
      "roundedMedia": 0,
      "mediaRadius": 0,
      "textShadow": 0,
@@ -1408,7 +1258,7 @@
     "nav": {
      "links": 2,
      "fixed": false,
-     "height": 80,
+     "height": 88,
      "floatingPill": false,
      "blur": false
     },

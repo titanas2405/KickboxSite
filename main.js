@@ -105,8 +105,7 @@ if (tabs.length) {
 document.querySelectorAll('section, footer').forEach((sec) => {
   sec.querySelectorAll('[data-reveal]').forEach((el, i) => el.style.setProperty('--d', Math.min(i, 8)));
 });
-document.querySelectorAll('.mark-blocks span').forEach((s, i) => s.style.setProperty('--d', i));
-const revealTargets = document.querySelectorAll('[data-reveal], .mark-blocks');
+const revealTargets = document.querySelectorAll('[data-reveal], .foot-logo');
 if ('IntersectionObserver' in window) {
   const io = new IntersectionObserver((entries) => {
     for (const e of entries) if (e.isIntersecting) { e.target.classList.add('is-in'); io.unobserve(e.target); }
