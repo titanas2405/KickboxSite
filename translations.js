@@ -45,6 +45,8 @@ window.TRANSLATIONS = {
     "nav.lang": "Γλώσσα",
     "nav.home": "Champs Kickboxing Club, αρχή σελίδας",
 
+    "hero.line1": "Κάθε champ",
+    "hero.line2": "ξεκινά εδώ",
     "hero.sub": "Kickboxing, πυγμαχία, cross training και παιδικά τμήματα στο Παλαιό Φάληρο. Για κάθε ηλικία και κάθε επίπεδο, από την πρώτη σου προπόνηση.",
     "hero.hours": "Ωράριο",
     "hero.call": "Κάλεσε τώρα",
@@ -209,6 +211,8 @@ window.TRANSLATIONS = {
     "nav.lang": "Language",
     "nav.home": "Champs Kickboxing Club, back to top",
 
+    "hero.line1": "Every champ",
+    "hero.line2": "starts here",
     "hero.sub": "Kickboxing, boxing, cross training and kids classes in Palaio Faliro. For every age and every level, from your very first session.",
     "hero.hours": "Hours",
     "hero.call": "Call now",
