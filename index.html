@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="el">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CHAMPS Kickboxing – Boxing Club</title>
+<meta name="description" content="Kickboxing και boxing για ενήλικες και παιδιά, σε μια φωτεινή αίθουσα με ρινγκ. Μαθήματα Δευτέρα έως Σάββατο. Κλείσε δοκιμαστικό μάθημα.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+
+<header class="bar wrap">
+  <a class="wordmark" href="#top" aria-label="CHAMPS, αρχή σελίδας">CHAMPS</a>
+  <nav class="nav" aria-label="Κύριο μενού">
+    <a class="link" href="#programma">Πρόγραμμα</a>
+    <a class="link only-wide" href="#xoros">Ο χώρος</a>
+    <a class="link only-wide" href="#epikoinonia">Επικοινωνία</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-hex" aria-hidden="true"></div>
+    <div class="hero-copy wrap">
+      <h1 id="hero-title" class="display lines" lang="en"><span class="line"><span data-line style="--i:0">Train hard,</span></span><span class="line"><span data-line style="--i:1">fight easy</span></span></h1>
+      <p class="hero-lead" data-rise style="--i:3">Kickboxing και boxing για ενήλικες και παιδιά, σε μια φωτεινή αίθουσα με ρινγκ, έξι μέρες την εβδομάδα.</p>
+      <a class="button" href="#epikoinonia" data-rise style="--i:4">Κλείσε δοκιμαστικό</a>
+    </div>
+    <div class="timer" aria-live="polite" data-rise style="--i:5">
+      <p class="timer-label" id="timer-label">Τα μαθήματα</p>
+      <p class="timer-digits nums" id="timer-digits">10:30–21:30</p>
+      <p class="timer-next" id="timer-next">Δευτέρα έως Παρασκευή, και Σάββατο πρωί 10:30–11:30.</p>
+    </div>
+  </section>
+
+  <section class="intro wrap" aria-label="Ο σύλλογος">
+    <p class="statement" data-reveal>Ένα λευκό γυμναστήριο <span class="thumb"><img src="assets/img/hall-night.jpg" alt="" width="516" height="418"></span> με ρινγκ, σάκους <span class="thumb"><img src="assets/img/hall-bags.jpg" alt="" width="516" height="418"></span> και καθρέφτες, όπου ενήλικες και παιδιά <span class="thumb thumb-extra"><img src="assets/img/team.jpg" alt="" width="599" height="436"></span> προπονούνται μαζί κάτω από τα εξάγωνα φώτα.</p>
+  </section>
+
+  <section class="programme" id="programma" aria-labelledby="programme-title">
+    <div class="wrap">
+      <div class="programme-head">
+        <h2 id="programme-title" class="head" data-reveal>Πρόγραμμα</h2>
+        <p class="programme-count nums" data-reveal>26 μαθήματα την εβδομάδα</p>
+      </div>
+      <div class="days" role="tablist" aria-label="Μέρα" hidden>
+        <button class="day-tab" role="tab" data-day="1">Δευτέρα</button>
+        <button class="day-tab" role="tab" data-day="2">Τρίτη</button>
+        <button class="day-tab" role="tab" data-day="3">Τετάρτη</button>
+        <button class="day-tab" role="tab" data-day="4">Πέμπτη</button>
+        <button class="day-tab" role="tab" data-day="5">Παρασκευή</button>
+        <button class="day-tab" role="tab" data-day="6">Σάββατο</button>
+      </div>
+      <div class="week">
+        <div class="day" data-day="1" role="tabpanel" aria-label="Δευτέρα">
+          <h3 class="day-name">Δευτέρα <span class="day-count">5 μαθήματα</span></h3>
+          <ul class="classes">
+            <li class="cls" data-start="10:30" data-end="11:30" data-name="Kickboxing &amp; Boxing"><span class="hex-bullet"><img src="assets/img/coach-pads.jpg" alt="" width="337" height="545" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Kickboxing &amp; Boxing</span><span class="cls-time nums">10:30–11:30</span></p><p class="cls-desc">Πρωινό μικτό τμήμα, για κάθε επίπεδο.</p><p class="cls-flag" hidden></p></div></li>
+            <li class="cls" data-start="17:30" data-end="18:30" data-name="Παιδικό τμήμα"><span class="hex-bullet"><img src="assets/img/kids-kick.jpg" alt="" width="337" height="545" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Παιδικό τμήμα</span><span class="cls-time nums">17:30–18:30</span></p><p class="cls-desc">Kickboxing για παιδιά: πειθαρχία, συντονισμός, ασφάλεια.</p><p class="cls-flag" hidden></p></div></li>
+            <li class="cls" data-start="18:30" data-end="19:30" data-name="Kickboxing &amp; Boxing"><span class="hex-bullet"><img src="assets/img/coach-pads.jpg" alt="" width="337" height="545" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Kickboxing &amp; Boxing</span><span class="cls-time nums">18:30–19:30</span></p><p class="cls-desc">Μικτό τμήμα: τεχνική, σάκος και στόχοι.</p><p class="cls-flag" hidden></p></div></li>
+            <li class="cls" data-start="19:30" data-end="20:30" data-name="Cross training"><span class="hex-bullet"><img src="assets/img/hall-bags.jpg" alt="" width="516" height="418" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Cross training</span><span class="cls-time nums">19:30–20:30</span></p><p class="cls-desc">Κυκλική προπόνηση δύναμης και αντοχής.</p><p class="cls-flag" hidden></p></div></li>
+            <li class="cls" data-start="20:30" data-end="21:30" data-name="Kickboxing &amp; Boxing"><span class="hex-bullet"><img src="assets/img/coach-pads.jpg" alt="" width="337" height="545" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Kickboxing &amp; Boxing</span><span class="cls-time nums">20:30–21:30</span></p><p class="cls-desc">Το βραδινό μικτό τμήμα, για κάθε επίπεδο.</p><p class="cls-flag" hidden></p></div></li>
+          </ul>
+        </div>
+        <div class="day" data-day="2" role="tabpanel" aria-label="Τρίτη">
+          <h3 class="day-name">Τρίτη <span class="day-count">5 μαθήματα</span></h3>
+          <ul class="classes">
+            <li class="cls" data-start="10:30" data-end="11:30" data-name="Kickboxing &amp; Boxing"><span class="hex-bullet"><img src="assets/img/coach-pads.jpg" alt="" width="337" height="545" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Kickboxing &amp; Boxing</span><span class="cls-time nums">10:30–11:30</span></p><p class="cls-desc">Πρωινό μικτό τμήμα, για κάθε επίπεδο.</p><p class="cls-flag" hidden></p></div></li>
+            <li class="cls" data-start="17:30" data-end="18:30" data-name="Παιδικό τμήμα"><span class="hex-bullet"><img src="assets/img/kids-kick.jpg" alt="" width="337" height="545" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Παιδικό τμήμα</span><span class="cls-time nums">17:30–18:30</span></p><p class="cls-desc">Kickboxing για παιδιά: πειθαρχία, συντονισμός, ασφάλεια.</p><p class="cls-flag" hidden></p></div></li>
+            <li class="cls" data-start="18:30" data-end="19:30" data-name="Kickboxing &amp; Boxing"><span class="hex-bullet"><img src="assets/img/coach-pads.jpg" alt="" width="337" height="545" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Kickboxing &amp; Boxing</span><span class="cls-time nums">18:30–19:30</span></p><p class="cls-desc">Μικτό τμήμα: τεχνική, σάκος και στόχοι.</p><p class="cls-flag" hidden></p></div></li>
+            <li class="cls" data-start="19:30" data-end="20:30" data-name="Boxing"><span class="hex-bullet"><img src="assets/img/sparring.jpg" alt="" width="337" height="545" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Boxing</span><span class="cls-time nums">19:30–20:30</span></p><p class="cls-desc">Μόνο χέρια: στάση, κίνηση, άμυνα, στόχοι.</p><p class="cls-flag" hidden></p></div></li>
+            <li class="cls" data-start="20:30" data-end="21:30" data-name="Kickboxing &amp; Boxing"><span class="hex-bullet"><img src="assets/img/coach-pads.jpg" alt="" width="337" height="545" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Kickboxing &amp; Boxing</span><span class="cls-time nums">20:30–21:30</span></p><p class="cls-desc">Το βραδινό μικτό τμήμα, για κάθε επίπεδο.</p><p class="cls-flag" hidden></p></div></li>
+          </ul>
+        </div>
+        <div class="day" data-day="3" role="tabpanel" aria-label="Τετάρτη">
+          <h3 class="day-name">Τετάρτη <span class="day-count">5 μαθήματα</span></h3>
+          <ul class="classes">
+            <li class="cls" data-start="10:30" data-end="11:30" data-name="Kickboxing &amp; Boxing"><span class="hex-bullet"><img src="assets/img/coach-pads.jpg" alt="" width="337" height="545" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Kickboxing &amp; Boxing</span><span class="cls-time nums">10:30–11:30</span></p><p class="cls-desc">Πρωινό μικτό τμήμα, για κάθε επίπεδο.</p><p class="cls-flag" hidden></p></div></li>
+            <li class="cls" data-start="17:30" data-end="18:30" data-name="Παιδικό τμήμα"><span class="hex-bullet"><img src="assets/img/kids-kick.jpg" alt="" width="337" height="545" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Παιδικό τμήμα</span><span class="cls-time nums">17:30–18:30</span></p><p class="cls-desc">Kickboxing για παιδιά: πειθαρχία, συντονισμός, ασφάλεια.</p><p class="cls-flag" hidden></p></div></li>
+            <li class="cls" data-start="18:30" data-end="19:30" data-name="Kickboxing &amp; Boxing"><span class="hex-bullet"><img src="assets/img/coach-pads.jpg" alt="" width="337" height="545" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Kickboxing &amp; Boxing</span><span class="cls-time nums">18:30–19:30</span></p><p class="cls-desc">Μικτό τμήμα: τεχνική, σάκος και στόχοι.</p><p class="cls-flag" hidden></p></div></li>
+            <li class="cls" data-start="19:30" data-end="20:30" data-name="Cross training"><span class="hex-bullet"><img src="assets/img/hall-bags.jpg" alt="" width="516" height="418" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Cross training</span><span class="cls-time nums">19:30–20:30</span></p><p class="cls-desc">Κυκλική προπόνηση δύναμης και αντοχής.</p><p class="cls-flag" hidden></p></div></li>
+            <li class="cls" data-start="20:30" data-end="21:30" data-name="Sparring"><span class="hex-bullet"><img src="assets/img/hall-ring.jpg" alt="" width="516" height="418" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Sparring</span><span class="cls-time nums">20:30–21:30</span></p><p class="cls-desc">Ελεγχόμενο sparring, με προστατευτικά.</p><p class="cls-flag" hidden></p></div></li>
+          </ul>
+        </div>
+        <div class="day" data-day="4" role="tabpanel" aria-label="Πέμπτη">
+          <h3 class="day-name">Πέμπτη <span class="day-count">5 μαθήματα</span></h3>
+          <ul class="classes">
+            <li class="cls" data-start="10:30" data-end="11:30" data-name="Kickboxing &amp; Boxing"><span class="hex-bullet"><img src="assets/img/coach-pads.jpg" alt="" width="337" height="545" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Kickboxing &amp; Boxing</span><span class="cls-time nums">10:30–11:30</span></p><p class="cls-desc">Πρωινό μικτό τμήμα, για κάθε επίπεδο.</p><p class="cls-flag" hidden></p></div></li>
+            <li class="cls" data-start="17:30" data-end="18:30" data-name="Παιδικό τμήμα"><span class="hex-bullet"><img src="assets/img/kids-kick.jpg" alt="" width="337" height="545" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Παιδικό τμήμα</span><span class="cls-time nums">17:30–18:30</span></p><p class="cls-desc">Kickboxing για παιδιά: πειθαρχία, συντονισμός, ασφάλεια.</p><p class="cls-flag" hidden></p></div></li>
+            <li class="cls" data-start="18:30" data-end="19:30" data-name="Kickboxing &amp; Boxing"><span class="hex-bullet"><img src="assets/img/coach-pads.jpg" alt="" width="337" height="545" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Kickboxing &amp; Boxing</span><span class="cls-time nums">18:30–19:30</span></p><p class="cls-desc">Μικτό τμήμα: τεχνική, σάκος και στόχοι.</p><p class="cls-flag" hidden></p></div></li>
+            <li class="cls" data-start="19:30" data-end="20:30" data-name="Boxing"><span class="hex-bullet"><img src="assets/img/sparring.jpg" alt="" width="337" height="545" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Boxing</span><span class="cls-time nums">19:30–20:30</span></p><p class="cls-desc">Μόνο χέρια: στάση, κίνηση, άμυνα, στόχοι.</p><p class="cls-flag" hidden></p></div></li>
+            <li class="cls" data-start="20:30" data-end="21:30" data-name="Kickboxing &amp; Boxing"><span class="hex-bullet"><img src="assets/img/coach-pads.jpg" alt="" width="337" height="545" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Kickboxing &amp; Boxing</span><span class="cls-time nums">20:30–21:30</span></p><p class="cls-desc">Το βραδινό μικτό τμήμα, για κάθε επίπεδο.</p><p class="cls-flag" hidden></p></div></li>
+          </ul>
+        </div>
+        <div class="day" data-day="5" role="tabpanel" aria-label="Παρασκευή">
+          <h3 class="day-name">Παρασκευή <span class="day-count">5 μαθήματα</span></h3>
+          <ul class="classes">
+            <li class="cls" data-start="10:30" data-end="11:30" data-name="Kickboxing &amp; Boxing"><span class="hex-bullet"><img src="assets/img/coach-pads.jpg" alt="" width="337" height="545" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Kickboxing &amp; Boxing</span><span class="cls-time nums">10:30–11:30</span></p><p class="cls-desc">Πρωινό μικτό τμήμα, για κάθε επίπεδο.</p><p class="cls-flag" hidden></p></div></li>
+            <li class="cls" data-start="17:30" data-end="18:30" data-name="Παιδικό τμήμα"><span class="hex-bullet"><img src="assets/img/kids-kick.jpg" alt="" width="337" height="545" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Παιδικό τμήμα</span><span class="cls-time nums">17:30–18:30</span></p><p class="cls-desc">Kickboxing για παιδιά: πειθαρχία, συντονισμός, ασφάλεια.</p><p class="cls-flag" hidden></p></div></li>
+            <li class="cls" data-start="18:30" data-end="19:30" data-name="Kickboxing &amp; Boxing"><span class="hex-bullet"><img src="assets/img/coach-pads.jpg" alt="" width="337" height="545" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Kickboxing &amp; Boxing</span><span class="cls-time nums">18:30–19:30</span></p><p class="cls-desc">Μικτό τμήμα: τεχνική, σάκος και στόχοι.</p><p class="cls-flag" hidden></p></div></li>
+            <li class="cls" data-start="19:30" data-end="20:30" data-name="Cross training"><span class="hex-bullet"><img src="assets/img/hall-bags.jpg" alt="" width="516" height="418" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Cross training</span><span class="cls-time nums">19:30–20:30</span></p><p class="cls-desc">Κυκλική προπόνηση δύναμης και αντοχής.</p><p class="cls-flag" hidden></p></div></li>
+            <li class="cls" data-start="20:30" data-end="21:30" data-name="Kickboxing &amp; Boxing"><span class="hex-bullet"><img src="assets/img/coach-pads.jpg" alt="" width="337" height="545" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Kickboxing &amp; Boxing</span><span class="cls-time nums">20:30–21:30</span></p><p class="cls-desc">Το βραδινό μικτό τμήμα, για κάθε επίπεδο.</p><p class="cls-flag" hidden></p></div></li>
+          </ul>
+        </div>
+        <div class="day" data-day="6" role="tabpanel" aria-label="Σάββατο">
+          <h3 class="day-name">Σάββατο <span class="day-count">1 μάθημα</span></h3>
+          <ul class="classes">
+            <li class="cls" data-start="10:30" data-end="11:30" data-name="Kickboxing &amp; Boxing"><span class="hex-bullet"><img src="assets/img/coach-pads.jpg" alt="" width="337" height="545" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Kickboxing &amp; Boxing</span><span class="cls-time nums">10:30–11:30</span></p><p class="cls-desc">Πρωινό μικτό τμήμα, για κάθε επίπεδο.</p><p class="cls-flag" hidden></p></div></li>
+          </ul>
+        </div>
+      </div>
+      <p class="programme-note">Κυριακή κλειστά. Το πρόγραμμα μπορεί να αλλάξει σε αργίες· δες το Instagram μας για ανακοινώσεις.</p>
+    </div>
+  </section>
+
+  <section class="points" id="tmimata" aria-labelledby="points-title">
+    <figure class="points-photo shutter" data-reveal>
+      <img src="assets/img/coach-pads.jpg" alt="Προπονητής κρατά στόχους σε αθλητή με προστατευτικά, πάνω στο ρινγκ με το λογότυπο CHAMPS" width="337" height="545" loading="lazy">
+    </figure>
+    <div class="points-body">
+      <h2 id="points-title" class="head" data-reveal>Τι θα βρεις εδώ</h2>
+      <ul class="point-list">
+        <li class="point" data-reveal style="--c:var(--ink)"><h3><span class="mark"></span>Ρινγκ αγώνων</h3><p>Πλήρες ρινγκ στη μέση της αίθουσας, για sparring και προετοιμασία αγώνων.</p></li>
+        <li class="point" data-reveal style="--c:var(--muted)"><h3><span class="mark"></span>Σειρά από σάκους</h3><p>Κρεμαστοί σάκοι σε σειρά, ώστε όλο το τμήμα να δουλεύει ταυτόχρονα.</p></li>
+        <li class="point" data-reveal style="--c:var(--led)"><h3><span class="mark"></span>Χρονόμετρο γύρων</h3><p>Οι γύροι μετράνε στο ρολόι του τοίχου, όπως σε αγώνα.</p></li>
+        <li class="point" data-reveal style="--c:var(--ink)"><h3><span class="mark"></span>Τοίχος καθρεφτών</h3><p>Βλέπεις τη στάση και τους συνδυασμούς σου σε κάθε γύρο.</p></li>
+        <li class="point" data-reveal style="--c:var(--muted)"><h3><span class="mark"></span>Πρωινό τμήμα</h3><p>Κάθε μέρα στις 10:30, και το Σάββατο, για όσους δουλεύουν απογεύματα.</p></li>
+        <li class="point" data-reveal style="--c:var(--led)"><h3><span class="mark"></span>Παιδικό τμήμα</h3><p>Δευτέρα έως Παρασκευή, 17:30–18:30, με δικό του προπονητή.</p></li>
+        <li class="point" data-reveal style="--c:var(--ink)"><h3><span class="mark"></span>Από το μηδέν</h3><p>Τα μικτά τμήματα δέχονται κάθε επίπεδο. Ξεκινάς από τη στάση και τα βασικά χτυπήματα.</p></li>
+        <li class="point" data-reveal style="--c:var(--muted)"><h3><span class="mark"></span>Sparring Τετάρτης</h3><p>Στις 20:30, ελεγχόμενο και με προστατευτικά, για όσους θέλουν να δοκιμαστούν.</p></li>
+        <li class="point" data-reveal style="--c:var(--led)"><h3><span class="mark"></span>Δύο αθλήματα</h3><p>Kickboxing και καθαρό boxing στην ίδια ομάδα, με cross training ανάμεσα.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="hall wrap" id="xoros" aria-labelledby="hall-title">
+    <div class="hall-text">
+      <h2 id="hall-title" class="head" data-reveal>Ο χώρος</h2>
+      <p class="lead" data-reveal>Μια ψηλή αίθουσα με τζαμαρία στον δρόμο, πατάρι, γκρι δάπεδο και φως από τα εξάγωνα του ταβανιού. Πέρνα να τη δεις πριν γραφτείς.</p>
+    </div>
+    <figure class="frame" data-reveal>
+      <button class="frame-hex" type="button" aria-label="Επόμενη φωτογραφία">
+        <img class="is-on" src="assets/img/hall-ring.jpg" alt="Το ρινγκ με την κολόνα CHAMPS και το πατάρι από πάνω" width="516" height="418" data-cap="Το ρινγκ, κάτω από το πατάρι.">
+        <img src="assets/img/hall-bags.jpg" alt="Σειρά από μαύρους σάκους CHAMPS κρεμασμένους από ράγα" width="516" height="418" loading="lazy" data-cap="Οι σάκοι, στη σειρά.">
+        <img src="assets/img/team.jpg" alt="Η ομάδα του CHAMPS, ενήλικες και παιδιά, μπροστά στο ρινγκ κάτω από τα εξάγωνα φώτα" width="599" height="436" loading="lazy" data-cap="Η ομάδα, ενήλικες και παιδιά μαζί.">
+        <img src="assets/img/hall-night.jpg" alt="Η αίθουσα το βράδυ με τα εξάγωνα φώτα αναμμένα και τον τοίχο καθρεφτών" width="516" height="418" loading="lazy" data-cap="Το βράδυ, με τα εξάγωνα αναμμένα.">
+        <img src="assets/img/sparring.jpg" alt="Δύο αθλητές με κράνος και γάντια κάνουν boxing μπροστά στο χρονόμετρο γύρων" width="337" height="545" loading="lazy" data-cap="Boxing, κάτω από το χρονόμετρο.">
+        <img src="assets/img/kids-kick.jpg" alt="Δύο νεαρές αθλήτριες με επικαλαμίδες εξασκούν λάκτισμα" width="337" height="545" loading="lazy" data-cap="Λακτίσματα στο παιδικό τμήμα.">
+      </button>
+      <figcaption class="frame-cap" aria-live="polite">Το ρινγκ, κάτω από το πατάρι.</figcaption>
+    </figure>
+  </section>
+
+  <section class="faq wrap" id="erotiseis" aria-labelledby="faq-title">
+    <h2 id="faq-title" class="head faq-title" data-reveal>Πρώτη φορά;</h2>
+    <div class="tiles">
+      <details class="tile" name="faq" data-reveal open>
+        <summary>Χρειάζομαι εμπειρία;</summary>
+        <p>Όχι. Τα μικτά τμήματα δέχονται κάθε επίπεδο. Στο πρώτο μάθημα δουλεύεις στάση, κίνηση και τα βασικά χτυπήματα, με τον ρυθμό σου.</p>
+      </details>
+      <details class="tile" name="faq" data-reveal>
+        <summary>Τι να φέρω στο πρώτο μάθημα;</summary>
+        <p>Άνετα αθλητικά ρούχα, νερό και μια πετσέτα. Προπονούμαστε ξυπόλητοι. Αν έχεις γάντια και μπαντάζ φέρ’ τα· αν όχι, πες μας όταν κλείνεις το δοκιμαστικό.</p>
+      </details>
+      <details class="tile" name="faq" data-reveal>
+        <summary>Ποια η διαφορά kickboxing και boxing;</summary>
+        <p>Στο boxing δουλεύεις μόνο με τα χέρια. Στο kickboxing προστίθενται λακτίσματα και γόνατα. Τα μικτά τμήματα έχουν και τα δύο· Τρίτη και Πέμπτη στις 19:30 είναι μόνο boxing.</p>
+      </details>
+      <details class="tile" name="faq" data-reveal>
+        <summary>Από ποια ηλικία είναι το παιδικό;</summary>
+        <p>Το παιδικό τμήμα τρέχει Δευτέρα έως Παρασκευή, 17:30–18:30. Πες μας την ηλικία του παιδιού και θα σου πούμε αν ταιριάζει εκεί ή σε μικτό τμήμα.</p>
+      </details>
+      <details class="tile" name="faq" data-reveal>
+        <summary>Είναι υποχρεωτικό το sparring;</summary>
+        <p>Όχι. Το sparring γίνεται την Τετάρτη στις 20:30, ελεγχόμενα και με προστατευτικά, μόνο για όσους το θέλουν και είναι έτοιμοι.</p>
+      </details>
+      <details class="tile" name="faq" data-reveal>
+        <summary>Μπορώ να έρθω πρωί;</summary>
+        <p>Ναι. Δευτέρα έως Σάββατο στις 10:30 υπάρχει μικτό τμήμα kickboxing και boxing.</p>
+      </details>
+      <details class="tile" name="faq" data-reveal>
+        <summary>Πόσο κοστίζει η συνδρομή;</summary>
+        <p>Τα πακέτα συνδρομής τα λέμε στο τηλέφωνο ή από κοντά στο γυμναστήριο. Το δοκιμαστικό μάθημα το κλείνεις με τη φόρμα παρακάτω.</p>
+      </details>
+    </div>
+  </section>
+
+  <section class="contact wrap" id="epikoinonia" aria-labelledby="contact-title">
+    <form class="coupon" id="trial" action="mailto:info@champs-club.gr" method="get" enctype="text/plain" data-reveal>
+      <div class="coupon-left">
+        <h2 id="contact-title" class="coupon-title">Κλείσε το πρώτο<br> σου μάθημα</h2>
+        <p>Διάλεξε τμήμα και μέρα. Θα σε πάρουμε τηλέφωνο να επιβεβαιώσουμε, ή πάρε μας εσύ στο <a class="link-plain" href="tel:+302100000000">210&nbsp;000&nbsp;0000</a>.</p>
+      </div>
+      <div class="coupon-right">
+        <label class="sr-only" for="f-name">Όνομα</label>
+        <input class="field" id="f-name" name="name" type="text" placeholder="Όνομα" autocomplete="name" required>
+        <label class="sr-only" for="f-phone">Τηλέφωνο</label>
+        <input class="field" id="f-phone" name="phone" type="tel" placeholder="Τηλέφωνο" autocomplete="tel" required>
+        <label class="sr-only" for="f-class">Τμήμα</label>
+        <select class="field" id="f-class" name="class">
+          <option>Kickboxing &amp; Boxing (μικτό)</option>
+          <option>Boxing</option>
+          <option>Cross training</option>
+          <option>Παιδικό τμήμα</option>
+        </select>
+        <label class="sr-only" for="f-day">Μέρα</label>
+        <select class="field" id="f-day" name="day">
+          <option>Δευτέρα</option><option>Τρίτη</option><option>Τετάρτη</option><option>Πέμπτη</option><option>Παρασκευή</option><option>Σάββατο</option>
+        </select>
+        <button class="submit" type="submit">Κλείσε δοκιμαστικό</button>
+      </div>
+    </form>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="mark-blocks" aria-label="CHAMPS" role="img">
+      <span style="--h:100%">C</span><span style="--h:78%">H</span><span style="--h:90%">A</span><span style="--h:66%">M</span><span style="--h:84%">P</span><span style="--h:72%">S</span>
+    </div>
+    <div class="foot-grid">
+      <ul class="foot-links">
+        <li><a class="link" href="#programma">Πρόγραμμα</a></li>
+        <li><a class="link" href="#tmimata">Τμήματα</a></li>
+        <li><a class="link" href="#xoros">Ο χώρος</a></li>
+        <li><a class="link" href="#erotiseis">Ερωτήσεις</a></li>
+        <li><a class="link" href="https://www.instagram.com/" rel="noopener">Instagram</a></li>
+      </ul>
+      <div class="foot-hours">
+        <p>Δευτέρα–Παρασκευή<br>10:30–11:30 και 17:30–21:30</p>
+        <p>Σάββατο 10:30–11:30<br>Κυριακή κλειστά</p>
+      </div>
+      <address class="foot-address">
+        <p>CHAMPS Kickboxing – Boxing Club<br>Οδός Παραδείγματος 00, Αθήνα</p>
+        <p><a class="link" href="tel:+302100000000">210 000 0000</a><br><a class="link" href="mailto:info@champs-club.gr">info@champs-club.gr</a></p>
+      </address>
+    </div>
+    <div class="foot-last">
+      <p>© 2026 CHAMPS Kickboxing – Boxing Club</p>
+      <a class="button button-small" href="#top">Στην αρχή</a>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js" defer></script>
+</body>
+</html>
