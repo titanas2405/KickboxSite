@@ -1,0 +1,1460 @@
+{
+ "url": "index.html",
+ "at": "2026-10-16T18:47:05.947Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.53,
+    0.51,
+    0.59,
+    0.19,
+    0.4,
+    0.56,
+    0.73,
+    0.8
+   ],
+   "motion": {
+    "elements": 40,
+    "css": 8,
+    "transitions": 32,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 6631,
+     "screens": 7.4,
+     "words": 429,
+     "img": 37,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 8,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "hall-night-wide.jpg",
+      "coach-pads.jpg",
+      "hall-ring.jpg",
+      "hall-bags.jpg",
+      "team.jpg",
+      "hall-night.jpg",
+      "sparring.jpg",
+      "kids-kick.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "Train hard, fight easy",
+     "words": 4,
+     "chars": 22,
+     "lines": 2,
+     "size": 109.4,
+     "vw": 7.6,
+     "font": "Inter Tight",
+     "weight": 600,
+     "tracking": -0.04,
+     "leading": 0.95,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.34,
+     "top": 253,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Train hard, fight easy",
+     "words": 4,
+     "lines": 2,
+     "size": 109.4,
+     "font": "Inter Tight"
+    },
+    "headings": [
+     {
+      "text": "CHAMPS",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 32,
+      "vw": 2.2,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.09,
+      "top": 24,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Train hard, fight easy",
+      "words": 4,
+      "chars": 22,
+      "lines": 2,
+      "size": 109.4,
+      "vw": 7.6,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.34,
+      "top": 253,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "12:42:46",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 86.4,
+      "vw": 6,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.25,
+      "top": 413,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Ένα λευκό γυμναστήριο με ρινγκ και σάκους , όπου ενήλικες και παιδιά προπονούνται μαζί κάτω από εξάγωνα φώτα.",
+      "words": 18,
+      "chars": 109,
+      "lines": 3,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Inter Tight",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 1.22,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.51,
+      "top": 1073,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Πρόγραμμα",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.22,
+      "top": 1507,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Τι θα βρεις εδώ",
+      "words": 4,
+      "chars": 15,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.54,
+      "top": 2555,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Ο χώρος",
+      "words": 2,
+      "chars": 7,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.39,
+      "top": 3642,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Πρώτη φορά;",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.31,
+      "top": 4312,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Κλείσε το πρώτο σου μάθημα",
+      "words": 5,
+      "chars": 26,
+      "lines": 2,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.32,
+      "top": 5281,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "C H A M P S",
+      "words": 6,
+      "chars": 11,
+      "lines": 1,
+      "size": 216,
+      "vw": 15,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 0.74,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 5972,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 10,
+     "maxLines": 3,
+     "over2Lines": 0,
+     "statements": 2,
+     "centered": 1,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Inter Tight",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      14,
+      19,
+      26,
+      32,
+      36,
+      64,
+      86,
+      109,
+      216
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "Inter Tight",
+      "size": 19,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": -0.005,
+      "contrast": 16.3
+     },
+     "measureChars": 60,
+     "max": {
+      "size": 216,
+      "vw": 15,
+      "font": "Inter Tight",
+      "text": "C"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.05,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#efefec",
+     "bodyBgHsl": {
+      "h": 60,
+      "s": 0.09,
+      "l": 0.93
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#121212",
+       "top": -19,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.07
+       }
+      },
+      {
+       "color": "#e2e2de",
+       "top": 5885,
+       "hsl": {
+        "h": 60,
+        "s": 0.06,
+        "l": 0.88
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#121212",
+       "share": 0.52
+      },
+      {
+       "color": "#4b4b48",
+       "share": 0.21
+      },
+      {
+       "color": "#efefec",
+       "share": 0.13
+      },
+      {
+       "color": "#b4b4ae",
+       "share": 0.13
+      },
+      {
+       "color": "#d6d6d0",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#232322",
+      "hsl": {
+       "h": 60,
+       "s": 0.01,
+       "l": 0.14
+      },
+      "fg": "#efefec"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 9,
+     "inHero": 1,
+     "radius": 0,
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Κλείσε δοκιμαστικό"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 8,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.52
+     }
+    ],
+    "nav": {
+     "links": 4,
+     "fixed": false,
+     "height": 80,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "inter tight"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.56,
+    0.68,
+    0.33,
+    0.35,
+    0.36,
+    0.7,
+    0.82,
+    0.86
+   ],
+   "motion": {
+    "elements": 39,
+    "css": 8,
+    "transitions": 31,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 7657,
+     "screens": 7.5,
+     "words": 429,
+     "img": 37,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 8,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "hall-night-wide.jpg",
+      "coach-pads.jpg",
+      "hall-ring.jpg",
+      "hall-bags.jpg",
+      "team.jpg",
+      "hall-night.jpg",
+      "sparring.jpg",
+      "kids-kick.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "Train hard, fight easy",
+     "words": 4,
+     "chars": 22,
+     "lines": 2,
+     "size": 86.4,
+     "vw": 11.3,
+     "font": "Inter Tight",
+     "weight": 600,
+     "tracking": -0.04,
+     "leading": 0.95,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.5,
+     "top": 154,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Train hard, fight easy",
+     "words": 4,
+     "lines": 2,
+     "size": 86.4,
+     "font": "Inter Tight"
+    },
+    "headings": [
+     {
+      "text": "CHAMPS",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.17,
+      "top": 24,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Train hard, fight easy",
+      "words": 4,
+      "chars": 22,
+      "lines": 2,
+      "size": 86.4,
+      "vw": 11.3,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.5,
+      "top": 154,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "12:42:37",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.62,
+      "top": 643,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Ένα λευκό γυμναστήριο με ρινγκ και σάκους , όπου ενήλικες και παιδιά προπονούνται μαζί κάτω από εξάγωνα φώτα.",
+      "words": 18,
+      "chars": 109,
+      "lines": 3,
+      "size": 29.9,
+      "vw": 3.9,
+      "font": "Inter Tight",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 1.22,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.8,
+      "top": 1144,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Πρόγραμμα",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.29,
+      "top": 1463,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Τι θα βρεις εδώ",
+      "words": 4,
+      "chars": 15,
+      "lines": 1,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 3179,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Ο χώρος",
+      "words": 2,
+      "chars": 7,
+      "lines": 1,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 4200,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Πρώτη φορά;",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 5163,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Κλείσε το πρώτο σου μάθημα",
+      "words": 5,
+      "chars": 26,
+      "lines": 2,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 6109,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "C H A M P S",
+      "words": 6,
+      "chars": 11,
+      "lines": 1,
+      "size": 122.9,
+      "vw": 16,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 0.74,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 6923,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 10,
+     "maxLines": 3,
+     "over2Lines": 0,
+     "statements": 2,
+     "centered": 2,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Inter Tight",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      18,
+      23,
+      30,
+      32,
+      45,
+      86,
+      123
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "Inter Tight",
+      "size": 17.9,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": -0.005,
+      "contrast": 16.3
+     },
+     "measureChars": 60,
+     "max": {
+      "size": 122.9,
+      "vw": 16,
+      "font": "Inter Tight",
+      "text": "C"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.08,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#efefec",
+     "bodyBgHsl": {
+      "h": 60,
+      "s": 0.09,
+      "l": 0.93
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#121212",
+       "top": 573,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.07
+       }
+      },
+      {
+       "color": "#e2e2de",
+       "top": 4441,
+       "hsl": {
+        "h": 60,
+        "s": 0.06,
+        "l": 0.88
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#121212",
+       "share": 0.52
+      },
+      {
+       "color": "#4b4b48",
+       "share": 0.21
+      },
+      {
+       "color": "#b4b4ae",
+       "share": 0.13
+      },
+      {
+       "color": "#efefec",
+       "share": 0.12
+      },
+      {
+       "color": "#d6d6d0",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#232322",
+      "hsl": {
+       "h": 60,
+       "s": 0.01,
+       "l": 0.14
+      },
+      "fg": "#efefec"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 9,
+     "inHero": 1,
+     "radius": 0,
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Κλείσε δοκιμαστικό"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 8,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.45
+     }
+    ],
+    "nav": {
+     "links": 4,
+     "fixed": false,
+     "height": 80,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "inter tight"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 9,
+   "filled": [
+    0.59,
+    0.68,
+    0.86,
+    0.24,
+    0.26,
+    0.39,
+    0.79,
+    0.75,
+    0.87
+   ],
+   "motion": {
+    "elements": 37,
+    "css": 8,
+    "transitions": 29,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 7403,
+     "screens": 8.8,
+     "words": 426,
+     "img": 37,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 8,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "hall-night-wide.jpg",
+      "coach-pads.jpg",
+      "hall-ring.jpg",
+      "hall-bags.jpg",
+      "team.jpg",
+      "hall-night.jpg",
+      "sparring.jpg",
+      "kids-kick.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "Train hard, fight easy",
+     "words": 4,
+     "chars": 22,
+     "lines": 2,
+     "size": 44.9,
+     "vw": 11.5,
+     "font": "Inter Tight",
+     "weight": 600,
+     "tracking": -0.04,
+     "leading": 0.95,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.51,
+     "top": 127,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Train hard, fight easy",
+     "words": 4,
+     "lines": 2,
+     "size": 44.9,
+     "font": "Inter Tight"
+    },
+    "headings": [
+     {
+      "text": "CHAMPS",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.34,
+      "top": 24,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Train hard, fight easy",
+      "words": 4,
+      "chars": 22,
+      "lines": 2,
+      "size": 44.9,
+      "vw": 11.5,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.51,
+      "top": 127,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "12:42:26",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.62,
+      "top": 508,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Ένα λευκό γυμναστήριο με ρινγκ και σάκους , όπου ενήλικες και παιδιά προπονούνται μαζί κάτω από εξάγωνα φώτα.",
+      "words": 18,
+      "chars": 109,
+      "lines": 4,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Inter Tight",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 1.22,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 964,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Πρόγραμμα",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 1291,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Τι θα βρεις εδώ",
+      "words": 4,
+      "chars": 15,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2995,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Ο χώρος",
+      "words": 2,
+      "chars": 7,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 4232,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Πρώτη φορά;",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 4983,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Κλείσε το πρώτο σου μάθημα",
+      "words": 5,
+      "chars": 26,
+      "lines": 2,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 5928,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "C H A M P S",
+      "words": 6,
+      "chars": 11,
+      "lines": 1,
+      "size": 62.4,
+      "vw": 16,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 0.74,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 6715,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 10,
+     "maxLines": 4,
+     "over2Lines": 0,
+     "statements": 2,
+     "centered": 1,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Inter Tight",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      17,
+      20,
+      24,
+      32,
+      33,
+      45,
+      62
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "Inter Tight",
+      "size": 17,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": -0.005,
+      "contrast": 16.3
+     },
+     "measureChars": 42,
+     "max": {
+      "size": 62.4,
+      "vw": 16,
+      "font": "Inter Tight",
+      "text": "C"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.05,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#efefec",
+     "bodyBgHsl": {
+      "h": 60,
+      "s": 0.09,
+      "l": 0.93
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#121212",
+       "top": 473,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.07
+       }
+      },
+      {
+       "color": "#e2e2de",
+       "top": 6655,
+       "hsl": {
+        "h": 60,
+        "s": 0.06,
+        "l": 0.88
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#121212",
+       "share": 0.52
+      },
+      {
+       "color": "#4b4b48",
+       "share": 0.21
+      },
+      {
+       "color": "#b4b4ae",
+       "share": 0.13
+      },
+      {
+       "color": "#efefec",
+       "share": 0.12
+      },
+      {
+       "color": "#d6d6d0",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#232322",
+      "hsl": {
+       "h": 60,
+       "s": 0.01,
+       "l": 0.14
+      },
+      "fg": "#efefec"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 9,
+     "inHero": 1,
+     "radius": 0,
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Κλείσε δοκιμαστικό"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 8,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.45
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": false,
+     "height": 80,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "inter tight"
+    ]
+   },
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/home/philip/Documents/kick_boxing_site/KickboxSite/.taste-skill/inspect/desktop-fold.jpg",
+   "pages": [
+    "/home/philip/Documents/kick_boxing_site/KickboxSite/.taste-skill/inspect/desktop-page-01.jpg",
+    "/home/philip/Documents/kick_boxing_site/KickboxSite/.taste-skill/inspect/desktop-page-02.jpg"
+   ]
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/home/philip/Documents/kick_boxing_site/KickboxSite/.taste-skill/inspect/tablet-fold.jpg",
+   "pages": [
+    "/home/philip/Documents/kick_boxing_site/KickboxSite/.taste-skill/inspect/tablet-page-01.jpg",
+    "/home/philip/Documents/kick_boxing_site/KickboxSite/.taste-skill/inspect/tablet-page-02.jpg"
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/home/philip/Documents/kick_boxing_site/KickboxSite/.taste-skill/inspect/mobile-fold.jpg",
+   "pages": [
+    "/home/philip/Documents/kick_boxing_site/KickboxSite/.taste-skill/inspect/mobile-page-01.jpg",
+    "/home/philip/Documents/kick_boxing_site/KickboxSite/.taste-skill/inspect/mobile-page-02.jpg"
+   ]
+  }
+ ]
+}

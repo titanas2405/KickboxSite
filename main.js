@@ -40,7 +40,6 @@ function whenLabel(c, nowDay) {
 const pad = (n) => String(n).padStart(2, '0');
 const endTime = (c) => `${pad(Math.floor((c.end % 1440) / 60))}:${pad(c.end % 60)}`;
 
-const tLabel = document.getElementById('timer-label');
 const tDigits = document.getElementById('timer-digits');
 const tNext = document.getElementById('timer-next');
 let lastMinute = -1;
@@ -51,12 +50,11 @@ function tick() {
   const run = running(now.sec);
   if (!nx) return;
   const left = nx.at - now.sec;
-  tLabel.textContent = 'Επόμενο μάθημα σε';
   tDigits.textContent = `${pad(Math.floor(left / 3600))}:${pad(Math.floor((left % 3600) / 60))}:${pad(left % 60)}`;
   const minute = Math.floor(now.sec / 60);
   if (minute === lastMinute) return;
   lastMinute = minute;
-  tNext.textContent = `${nx.c.name}, ${whenLabel(nx.c, now.day)}.` + (run ? ` Τώρα στην αίθουσα: ${run.name}, μέχρι ${endTime(run)}.` : '');
+  tNext.textContent = `μέχρι το επόμενο μάθημα: ${nx.c.name}, ${whenLabel(nx.c, now.day)}.` + (run ? ` Τώρα στην αίθουσα: ${run.name}, μέχρι ${endTime(run)}.` : '');
   // mark now and next on the timetable
   for (const c of classes) {
     c.el.classList.remove('is-now', 'is-next');
