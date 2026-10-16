@@ -3,252 +3,488 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>CHAMPS Kickboxing – Boxing Club</title>
-<meta name="description" content="Kickboxing και boxing για ενήλικες και παιδιά, σε μια φωτεινή αίθουσα με ρινγκ. Μαθήματα Δευτέρα έως Σάββατο. Κλείσε δοκιμαστικό μάθημα.">
+<title>Champs Kickboxing Club | Kickboxing & Πυγμαχία στο Παλαιό Φάληρο</title>
+<meta name="description" content="Kickboxing, πυγμαχία, cross training, γυμναστήριο και kickboxing για παιδιά στο Παλαιό Φάληρο. Champs Kickboxing Club, Αχιλλέως 106. Κλείσε δωρεάν δοκιμαστικό μάθημα.">
+<meta name="keywords" content="kickboxing Παλαιό Φάληρο, πυγμαχία Παλαιό Φάληρο, boxing Παλαιό Φάληρο, kickboxing για παιδιά Παλαιό Φάληρο, cross training Παλαιό Φάληρο, γυμναστήριο Παλαιό Φάληρο, kickboxing Palaio Faliro, boxing Palaio Faliro, kids kickboxing Athens">
+<meta name="theme-color" content="#0b0b0b">
+<link rel="icon" href="assets/img/favicon.png">
+
+<!-- Open Graph. TODO: after deploying, change og:url and og:image to full https:// addresses on your domain -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Champs Kickboxing Club">
+<meta property="og:title" content="Champs Kickboxing Club | Kickboxing & Πυγμαχία στο Παλαιό Φάληρο">
+<meta property="og:description" content="Kickboxing, πυγμαχία, cross training και παιδικά τμήματα στο Παλαιό Φάληρο. Κλείσε δωρεάν δοκιμαστικό μάθημα.">
+<meta property="og:image" content="assets/img/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="el_GR">
+<meta property="og:locale:alternate" content="en_GB">
+<meta property="og:url" content="https://example.com/">
+<meta name="twitter:card" content="summary_large_image">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="icon" href="assets/img/favicon.png">
-<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<!--
+  JSON-LD for Google. TODO: when the opening hours are confirmed, update
+  "openingHoursSpecification" here AND the HOURS object at the top of script.js.
+-->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SportsActivityLocation",
+  "name": "Champs Kickboxing Club",
+  "description": "Kickboxing, πυγμαχία, cross training, γυμναστήριο και kickboxing για παιδιά στο Παλαιό Φάληρο.",
+  "image": "assets/img/og-image.jpg",
+  "logo": "assets/img/logo.png",
+  "telephone": "+306936697026",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Achilleos 106",
+    "addressLocality": "Palaio Faliro",
+    "addressRegion": "Attica",
+    "postalCode": "17563",
+    "addressCountry": "GR"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 37.9287925, "longitude": 23.7084566 },
+  "hasMap": "https://www.google.com/maps/place/CHAMPS+KICKBOXING+CLUB/@37.9287967,23.7058763,17z/data=!3m1!4b1!4m6!3m5!1s0x14a1bd28fe6bd457:0x919b13afec4aba1b!8m2!3d37.9287925!4d23.7084566!16s%2Fg%2F11xf5dxsy9",
+  "sameAs": ["https://www.instagram.com/champs_kickboxing_club/"],
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "17:00", "closes": "22:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "10:00", "closes": "14:00" }
+  ],
+  "keywords": "kickboxing Παλαιό Φάληρο, πυγμαχία Παλαιό Φάληρο, kickboxing για παιδιά Παλαιό Φάληρο, boxing Palaio Faliro"
+}
+</script>
 <script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
 
-<header class="bar wrap">
-  <a class="wordmark" href="#top"><img src="assets/img/logo-ink.png" alt="CHAMPS Kickboxing – Boxing Club, αρχή σελίδας" width="1588" height="660"></a>
-  <nav class="nav" aria-label="Κύριο μενού">
-    <a class="link" href="#programma">Πρόγραμμα</a>
-    <a class="link only-wide" href="#xoros">Ο χώρος</a>
-    <a class="link only-wide" href="#epikoinonia">Επικοινωνία</a>
-  </nav>
+<!-- icon sprite -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-pin" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1L6.6 10.8Z"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm1 10.4 3.5 2.1-.8 1.3L11 13V7h2v5.4Z"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path fill="currentColor" d="m12 17.3 6.2 3.7-1.6-7 5.4-4.7-7.2-.6L12 2 9.2 8.7 2 9.3l5.4 4.7-1.6 7L12 17.3Z"/></symbol>
+  <symbol id="i-insta" viewBox="0 0 24 24"><path fill="currentColor" d="M12 7.3a4.7 4.7 0 1 0 0 9.4 4.7 4.7 0 0 0 0-9.4Zm0 7.7a3 3 0 1 1 0-6 3 3 0 0 1 0 6Zm6-7.9a1.1 1.1 0 1 1-2.2 0 1.1 1.1 0 0 1 2.2 0ZM21.9 8.2c-.1-1.6-.4-3-1.6-4.2S17.4 2.4 15.8 2.3C14.2 2.2 9.8 2.2 8.2 2.3 6.6 2.4 5.2 2.7 4 3.9S2.4 6.6 2.3 8.2C2.2 9.8 2.2 14.2 2.3 15.8c.1 1.6.4 3 1.6 4.2s2.6 1.5 4.2 1.6c1.6.1 6 .1 7.6 0 1.6-.1 3-.4 4.2-1.6s1.5-2.6 1.6-4.2c.1-1.6.1-6 0-7.6Zm-2.1 9.4a3.1 3.1 0 0 1-1.7 1.7c-1.2.5-4 .4-5.3.4s-4.1.1-5.3-.4a3.1 3.1 0 0 1-1.7-1.7c-.5-1.2-.4-4-.4-5.3s-.1-4.1.4-5.3a3.1 3.1 0 0 1 1.7-1.7c1.2-.5 4-.4 5.3-.4s4.1-.1 5.3.4a3.1 3.1 0 0 1 1.7 1.7c.5 1.2.4 4 .4 5.3s.1 4.1-.4 5.3Z"/></symbol>
+  <symbol id="i-map" viewBox="0 0 24 24"><path fill="currentColor" d="m15 5.1-6-2.1-6 2.3v15.6l6-2.3 6 2.1 6-2.3V2.8l-6 2.3ZM10 5.4l4 1.4v11.8l-4-1.4V5.4ZM5 6.7l3-1.1v11.8l-3 1.1V6.7Zm14 10.6-3 1.1V6.6l3-1.1v11.8Z"/></symbol>
+  <symbol id="i-route" viewBox="0 0 24 24"><path fill="currentColor" d="M21.7 11.3 12.7 2.3a1 1 0 0 0-1.4 0l-9 9a1 1 0 0 0 0 1.4l9 9a1 1 0 0 0 1.4 0l9-9a1 1 0 0 0 0-1.4ZM14 14.5V12h-4v3H8v-4a1 1 0 0 1 1-1h5V7.5l3.5 3.5-3.5 3.5Z"/></symbol>
+  <symbol id="i-up" viewBox="0 0 24 24"><path fill="currentColor" d="M12 5.6 4.3 13.3l1.4 1.4L11 9.4V20h2V9.4l5.3 5.3 1.4-1.4L12 5.6Z"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path fill="currentColor" d="M3 6h18v2H3V6Zm0 5h18v2H3v-2Zm0 5h18v2H3v-2Z"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path fill="currentColor" d="m12 10.6 5.6-5.6 1.4 1.4-5.6 5.6 5.6 5.6-1.4 1.4-5.6-5.6-5.6 5.6L5 17.6l5.6-5.6L5 6.4 6.4 5l5.6 5.6Z"/></symbol>
+  <symbol id="i-left" viewBox="0 0 24 24"><path fill="currentColor" d="M15.4 5.4 14 4l-8 8 8 8 1.4-1.4L8.8 12l6.6-6.6Z"/></symbol>
+  <symbol id="i-right" viewBox="0 0 24 24"><path fill="currentColor" d="M8.6 18.6 10 20l8-8-8-8-1.4 1.4 6.6 6.6-6.6 6.6Z"/></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24"><path fill="currentColor" d="M13 3v10.2l3.6-3.6L18 11l-6 6-6-6 1.4-1.4 3.6 3.6V3h2ZM4 19h16v2H4v-2Z"/></symbol>
+</svg>
+
+<a class="skip" href="#main" data-i18n="skip">Μετάβαση στο περιεχόμενο</a>
+
+<header class="site-header" id="site-header">
+  <!-- Top bar: location + phone on every screen, today's hours on desktop -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <a class="topbar-link" data-link="maps" href="https://www.google.com/maps/place/CHAMPS+KICKBOXING+CLUB/@37.9287967,23.7058763,17z/data=!3m1!4b1!4m6!3m5!1s0x14a1bd28fe6bd457:0x919b13afec4aba1b!8m2!3d37.9287925!4d23.7084566!16s%2Fg%2F11xf5dxsy9" target="_blank" rel="noopener" data-i18n-attr="aria-label:top.mapAria" aria-label="Το Champs στο Google Maps, Παλαιό Φάληρο">
+        <svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><span data-i18n="top.location">Παλαιό Φάληρο</span>
+      </a>
+      <a class="topbar-link" data-link="tel" href="tel:+306936697026" data-i18n-attr="aria-label:top.callAria" aria-label="Κάλεσε το Champs στο 693 669 7026">
+        <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg><span data-phone-text>693 669 7026</span>
+      </a>
+      <p class="topbar-today" id="topbar-today"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg><span></span></p>
+    </div>
+  </div>
+
+  <div class="navbar">
+    <div class="container navbar-inner">
+      <a class="brand" href="#home" data-i18n-attr="aria-label:nav.home" aria-label="Champs Kickboxing Club, αρχή σελίδας">
+        <img src="assets/img/logo.png" alt="" width="800" height="332">
+      </a>
+
+      <nav class="nav" id="site-nav" data-i18n-attr="aria-label:nav.label" aria-label="Κύριο μενού">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="#classes" data-i18n="nav.classes">Μαθήματα</a></li>
+          <li><a class="nav-link" href="#gallery" data-i18n="nav.gallery">Γκαλερί</a></li>
+          <li><a class="nav-link" href="#trainers" data-i18n="nav.trainers">Προπονητές</a></li>
+          <li><a class="nav-link" href="#hours" data-i18n="nav.hours">Ωράριο</a></li>
+          <li><a class="nav-link" href="#pricing" data-i18n="nav.pricing">Τιμές</a></li>
+          <li><a class="nav-link" href="#contact" data-i18n="nav.contact">Επικοινωνία</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-tools">
+        <div class="lang" role="group" data-i18n-attr="aria-label:nav.lang" aria-label="Γλώσσα">
+          <button type="button" class="lang-btn" data-lang="el" aria-pressed="true" lang="el">EL</button>
+          <span class="lang-sep" aria-hidden="true">/</span>
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="false" lang="en">EN</button>
+        </div>
+        <button type="button" class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="site-nav">
+          <svg class="icon icon-open" aria-hidden="true"><use href="#i-menu"/></svg>
+          <svg class="icon icon-close" aria-hidden="true"><use href="#i-close"/></svg>
+          <span class="sr-only" data-i18n="nav.menu">Μενού</span>
+        </button>
+      </div>
+    </div>
+  </div>
 </header>
 
-<main id="top">
+<main id="main">
 
-  <section class="hero" aria-labelledby="hero-title">
-    <div class="hero-hex"><img src="assets/img/hall-night-wide.jpg" alt="Η αίθουσα του CHAMPS το βράδυ, με τα εξάγωνα φώτα του ταβανιού αναμμένα πάνω από το ρινγκ" width="1600" height="1296" fetchpriority="high"></div>
-    <div class="hero-copy wrap">
-      <h1 id="hero-title" class="display lines" lang="en"><span class="line"><span data-line style="--i:0">Train hard,</span></span><span class="line"><span data-line style="--i:1">fight easy</span></span></h1>
-      <p class="hero-lead" data-rise style="--i:3">Kickboxing και boxing για ενήλικες και παιδιά, σε μια φωτεινή αίθουσα με ρινγκ, έξι μέρες την εβδομάδα.</p>
-      <a class="button" href="#epikoinonia" data-rise style="--i:4">Κλείσε δοκιμαστικό</a>
-    </div>
-    <div class="timer" data-rise style="--i:5">
-      <p class="timer-digits nums" id="timer-digits">10:30–21:30</p>
-      <p class="timer-next" id="timer-next">Μαθήματα Δευτέρα έως Παρασκευή, και Σάββατο πρωί 10:30–11:30.</p>
-    </div>
-  </section>
+  <!-- 1. HERO -->
+  <section class="hero" id="home" aria-labelledby="hero-title">
+    <div class="hero-bgword" aria-hidden="true">CHAMPS</div>
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <h1 id="hero-title" class="hero-title" lang="en">
+          <span class="hero-line">Train hard</span>
+          <span class="hero-line hero-line--block">Fight easy</span>
+        </h1>
+        <p class="hero-sub" data-i18n="hero.sub">Kickboxing, πυγμαχία, cross training και παιδικά τμήματα στο Παλαιό Φάληρο. Για κάθε ηλικία και κάθε επίπεδο, από την πρώτη σου προπόνηση.</p>
 
-  <section class="intro wrap" aria-label="Ο σύλλογος">
-    <p class="statement" data-reveal>Ένα λευκό γυμναστήριο <span class="thumb"><img src="assets/img/hall-night.jpg" alt="" width="516" height="418"></span> με ρινγκ και σάκους <span class="thumb"><img src="assets/img/hall-bags.jpg" alt="" width="516" height="418"></span>, όπου ενήλικες και παιδιά <span class="thumb thumb-extra"><img src="assets/img/kid-stance.jpg" alt="" width="283" height="273"></span> προπονούνται μαζί κάτω από εξάγωνα φώτα.</p>
-  </section>
+        <div class="hero-hours">
+          <svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>
+          <p><strong data-i18n="hero.hours">Ωράριο</strong> <span id="hero-hours">Δευ–Παρ 17:00–22:00 · Σάβ 10:00–14:00 · Κυρ Κλειστά</span></p>
+        </div>
 
-  <section class="programme" id="programma" aria-labelledby="programme-title">
-    <div class="wrap">
-      <div class="programme-head">
-        <h2 id="programme-title" class="head" data-reveal>Πρόγραμμα</h2>
-        <p class="programme-count nums" data-reveal>26 μαθήματα την εβδομάδα</p>
-      </div>
-      <div class="days" role="tablist" aria-label="Μέρα" hidden>
-        <button class="day-tab" role="tab" data-day="1">Δευτέρα</button>
-        <button class="day-tab" role="tab" data-day="2">Τρίτη</button>
-        <button class="day-tab" role="tab" data-day="3">Τετάρτη</button>
-        <button class="day-tab" role="tab" data-day="4">Πέμπτη</button>
-        <button class="day-tab" role="tab" data-day="5">Παρασκευή</button>
-        <button class="day-tab" role="tab" data-day="6">Σάββατο</button>
-      </div>
-      <div class="week">
-        <div class="day" data-day="1" role="tabpanel" aria-label="Δευτέρα">
-          <h3 class="day-name">Δευτέρα <span class="day-count">5 μαθήματα</span></h3>
-          <ul class="classes">
-            <li class="cls" data-start="10:30" data-end="11:30" data-name="Kickboxing &amp; Boxing"><span class="hex-bullet"><img src="assets/img/coach-pads.jpg" alt="" width="337" height="545" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Kickboxing &amp; Boxing</span><span class="cls-time nums">10:30–11:30</span></p><p class="cls-desc">Πρωινό μικτό τμήμα, για κάθε επίπεδο.</p><p class="cls-flag" hidden></p></div></li>
-            <li class="cls" data-start="17:30" data-end="18:30" data-name="Παιδικό τμήμα"><span class="hex-bullet"><img src="assets/img/kid-stance.jpg" alt="" width="283" height="273" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Παιδικό τμήμα</span><span class="cls-time nums">17:30–18:30</span></p><p class="cls-desc">Kickboxing για παιδιά: πειθαρχία, συντονισμός, ασφάλεια.</p><p class="cls-flag" hidden></p></div></li>
-            <li class="cls" data-start="18:30" data-end="19:30" data-name="Kickboxing &amp; Boxing"><span class="hex-bullet"><img src="assets/img/coach-pads.jpg" alt="" width="337" height="545" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Kickboxing &amp; Boxing</span><span class="cls-time nums">18:30–19:30</span></p><p class="cls-desc">Μικτό τμήμα: τεχνική, σάκος και στόχοι.</p><p class="cls-flag" hidden></p></div></li>
-            <li class="cls" data-start="19:30" data-end="20:30" data-name="Cross training"><span class="hex-bullet"><img src="assets/img/hall-bags.jpg" alt="" width="516" height="418" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Cross training</span><span class="cls-time nums">19:30–20:30</span></p><p class="cls-desc">Κυκλική προπόνηση δύναμης και αντοχής.</p><p class="cls-flag" hidden></p></div></li>
-            <li class="cls" data-start="20:30" data-end="21:30" data-name="Kickboxing &amp; Boxing"><span class="hex-bullet"><img src="assets/img/coach-pads.jpg" alt="" width="337" height="545" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Kickboxing &amp; Boxing</span><span class="cls-time nums">20:30–21:30</span></p><p class="cls-desc">Το βραδινό μικτό τμήμα, για κάθε επίπεδο.</p><p class="cls-flag" hidden></p></div></li>
-          </ul>
+        <div class="hero-actions">
+          <a class="btn btn-solid" data-link="tel" href="tel:+306936697026"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg><span data-i18n="hero.call">Κάλεσε τώρα</span></a>
+          <a class="btn btn-outline" href="#contact-form" data-i18n="hero.trial">Κλείσε δωρεάν δοκιμαστικό</a>
         </div>
-        <div class="day" data-day="2" role="tabpanel" aria-label="Τρίτη">
-          <h3 class="day-name">Τρίτη <span class="day-count">5 μαθήματα</span></h3>
-          <ul class="classes">
-            <li class="cls" data-start="10:30" data-end="11:30" data-name="Kickboxing &amp; Boxing"><span class="hex-bullet"><img src="assets/img/coach-pads.jpg" alt="" width="337" height="545" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Kickboxing &amp; Boxing</span><span class="cls-time nums">10:30–11:30</span></p><p class="cls-desc">Πρωινό μικτό τμήμα, για κάθε επίπεδο.</p><p class="cls-flag" hidden></p></div></li>
-            <li class="cls" data-start="17:30" data-end="18:30" data-name="Παιδικό τμήμα"><span class="hex-bullet"><img src="assets/img/kid-stance.jpg" alt="" width="283" height="273" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Παιδικό τμήμα</span><span class="cls-time nums">17:30–18:30</span></p><p class="cls-desc">Kickboxing για παιδιά: πειθαρχία, συντονισμός, ασφάλεια.</p><p class="cls-flag" hidden></p></div></li>
-            <li class="cls" data-start="18:30" data-end="19:30" data-name="Kickboxing &amp; Boxing"><span class="hex-bullet"><img src="assets/img/coach-pads.jpg" alt="" width="337" height="545" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Kickboxing &amp; Boxing</span><span class="cls-time nums">18:30–19:30</span></p><p class="cls-desc">Μικτό τμήμα: τεχνική, σάκος και στόχοι.</p><p class="cls-flag" hidden></p></div></li>
-            <li class="cls" data-start="19:30" data-end="20:30" data-name="Boxing"><span class="hex-bullet"><img src="assets/img/pads-mirror.jpg" alt="" width="337" height="545" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Boxing</span><span class="cls-time nums">19:30–20:30</span></p><p class="cls-desc">Μόνο χέρια: στάση, κίνηση, άμυνα, στόχοι.</p><p class="cls-flag" hidden></p></div></li>
-            <li class="cls" data-start="20:30" data-end="21:30" data-name="Kickboxing &amp; Boxing"><span class="hex-bullet"><img src="assets/img/coach-pads.jpg" alt="" width="337" height="545" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Kickboxing &amp; Boxing</span><span class="cls-time nums">20:30–21:30</span></p><p class="cls-desc">Το βραδινό μικτό τμήμα, για κάθε επίπεδο.</p><p class="cls-flag" hidden></p></div></li>
-          </ul>
-        </div>
-        <div class="day" data-day="3" role="tabpanel" aria-label="Τετάρτη">
-          <h3 class="day-name">Τετάρτη <span class="day-count">5 μαθήματα</span></h3>
-          <ul class="classes">
-            <li class="cls" data-start="10:30" data-end="11:30" data-name="Kickboxing &amp; Boxing"><span class="hex-bullet"><img src="assets/img/coach-pads.jpg" alt="" width="337" height="545" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Kickboxing &amp; Boxing</span><span class="cls-time nums">10:30–11:30</span></p><p class="cls-desc">Πρωινό μικτό τμήμα, για κάθε επίπεδο.</p><p class="cls-flag" hidden></p></div></li>
-            <li class="cls" data-start="17:30" data-end="18:30" data-name="Παιδικό τμήμα"><span class="hex-bullet"><img src="assets/img/kid-stance.jpg" alt="" width="283" height="273" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Παιδικό τμήμα</span><span class="cls-time nums">17:30–18:30</span></p><p class="cls-desc">Kickboxing για παιδιά: πειθαρχία, συντονισμός, ασφάλεια.</p><p class="cls-flag" hidden></p></div></li>
-            <li class="cls" data-start="18:30" data-end="19:30" data-name="Kickboxing &amp; Boxing"><span class="hex-bullet"><img src="assets/img/coach-pads.jpg" alt="" width="337" height="545" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Kickboxing &amp; Boxing</span><span class="cls-time nums">18:30–19:30</span></p><p class="cls-desc">Μικτό τμήμα: τεχνική, σάκος και στόχοι.</p><p class="cls-flag" hidden></p></div></li>
-            <li class="cls" data-start="19:30" data-end="20:30" data-name="Cross training"><span class="hex-bullet"><img src="assets/img/hall-bags.jpg" alt="" width="516" height="418" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Cross training</span><span class="cls-time nums">19:30–20:30</span></p><p class="cls-desc">Κυκλική προπόνηση δύναμης και αντοχής.</p><p class="cls-flag" hidden></p></div></li>
-            <li class="cls" data-start="20:30" data-end="21:30" data-name="Sparring"><span class="hex-bullet"><img src="assets/img/hall-ring.jpg" alt="" width="516" height="418" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Sparring</span><span class="cls-time nums">20:30–21:30</span></p><p class="cls-desc">Ελεγχόμενο sparring, με προστατευτικά.</p><p class="cls-flag" hidden></p></div></li>
-          </ul>
-        </div>
-        <div class="day" data-day="4" role="tabpanel" aria-label="Πέμπτη">
-          <h3 class="day-name">Πέμπτη <span class="day-count">5 μαθήματα</span></h3>
-          <ul class="classes">
-            <li class="cls" data-start="10:30" data-end="11:30" data-name="Kickboxing &amp; Boxing"><span class="hex-bullet"><img src="assets/img/coach-pads.jpg" alt="" width="337" height="545" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Kickboxing &amp; Boxing</span><span class="cls-time nums">10:30–11:30</span></p><p class="cls-desc">Πρωινό μικτό τμήμα, για κάθε επίπεδο.</p><p class="cls-flag" hidden></p></div></li>
-            <li class="cls" data-start="17:30" data-end="18:30" data-name="Παιδικό τμήμα"><span class="hex-bullet"><img src="assets/img/kid-stance.jpg" alt="" width="283" height="273" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Παιδικό τμήμα</span><span class="cls-time nums">17:30–18:30</span></p><p class="cls-desc">Kickboxing για παιδιά: πειθαρχία, συντονισμός, ασφάλεια.</p><p class="cls-flag" hidden></p></div></li>
-            <li class="cls" data-start="18:30" data-end="19:30" data-name="Kickboxing &amp; Boxing"><span class="hex-bullet"><img src="assets/img/coach-pads.jpg" alt="" width="337" height="545" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Kickboxing &amp; Boxing</span><span class="cls-time nums">18:30–19:30</span></p><p class="cls-desc">Μικτό τμήμα: τεχνική, σάκος και στόχοι.</p><p class="cls-flag" hidden></p></div></li>
-            <li class="cls" data-start="19:30" data-end="20:30" data-name="Boxing"><span class="hex-bullet"><img src="assets/img/pads-mirror.jpg" alt="" width="337" height="545" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Boxing</span><span class="cls-time nums">19:30–20:30</span></p><p class="cls-desc">Μόνο χέρια: στάση, κίνηση, άμυνα, στόχοι.</p><p class="cls-flag" hidden></p></div></li>
-            <li class="cls" data-start="20:30" data-end="21:30" data-name="Kickboxing &amp; Boxing"><span class="hex-bullet"><img src="assets/img/coach-pads.jpg" alt="" width="337" height="545" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Kickboxing &amp; Boxing</span><span class="cls-time nums">20:30–21:30</span></p><p class="cls-desc">Το βραδινό μικτό τμήμα, για κάθε επίπεδο.</p><p class="cls-flag" hidden></p></div></li>
-          </ul>
-        </div>
-        <div class="day" data-day="5" role="tabpanel" aria-label="Παρασκευή">
-          <h3 class="day-name">Παρασκευή <span class="day-count">5 μαθήματα</span></h3>
-          <ul class="classes">
-            <li class="cls" data-start="10:30" data-end="11:30" data-name="Kickboxing &amp; Boxing"><span class="hex-bullet"><img src="assets/img/coach-pads.jpg" alt="" width="337" height="545" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Kickboxing &amp; Boxing</span><span class="cls-time nums">10:30–11:30</span></p><p class="cls-desc">Πρωινό μικτό τμήμα, για κάθε επίπεδο.</p><p class="cls-flag" hidden></p></div></li>
-            <li class="cls" data-start="17:30" data-end="18:30" data-name="Παιδικό τμήμα"><span class="hex-bullet"><img src="assets/img/kid-stance.jpg" alt="" width="283" height="273" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Παιδικό τμήμα</span><span class="cls-time nums">17:30–18:30</span></p><p class="cls-desc">Kickboxing για παιδιά: πειθαρχία, συντονισμός, ασφάλεια.</p><p class="cls-flag" hidden></p></div></li>
-            <li class="cls" data-start="18:30" data-end="19:30" data-name="Kickboxing &amp; Boxing"><span class="hex-bullet"><img src="assets/img/coach-pads.jpg" alt="" width="337" height="545" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Kickboxing &amp; Boxing</span><span class="cls-time nums">18:30–19:30</span></p><p class="cls-desc">Μικτό τμήμα: τεχνική, σάκος και στόχοι.</p><p class="cls-flag" hidden></p></div></li>
-            <li class="cls" data-start="19:30" data-end="20:30" data-name="Cross training"><span class="hex-bullet"><img src="assets/img/hall-bags.jpg" alt="" width="516" height="418" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Cross training</span><span class="cls-time nums">19:30–20:30</span></p><p class="cls-desc">Κυκλική προπόνηση δύναμης και αντοχής.</p><p class="cls-flag" hidden></p></div></li>
-            <li class="cls" data-start="20:30" data-end="21:30" data-name="Kickboxing &amp; Boxing"><span class="hex-bullet"><img src="assets/img/coach-pads.jpg" alt="" width="337" height="545" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Kickboxing &amp; Boxing</span><span class="cls-time nums">20:30–21:30</span></p><p class="cls-desc">Το βραδινό μικτό τμήμα, για κάθε επίπεδο.</p><p class="cls-flag" hidden></p></div></li>
-          </ul>
-        </div>
-        <div class="day" data-day="6" role="tabpanel" aria-label="Σάββατο">
-          <h3 class="day-name">Σάββατο <span class="day-count">1 μάθημα</span></h3>
-          <ul class="classes">
-            <li class="cls" data-start="10:30" data-end="11:30" data-name="Kickboxing &amp; Boxing"><span class="hex-bullet"><img src="assets/img/coach-pads.jpg" alt="" width="337" height="545" loading="lazy"></span><div class="cls-body"><p class="cls-row"><span class="cls-name">Kickboxing &amp; Boxing</span><span class="cls-time nums">10:30–11:30</span></p><p class="cls-desc">Πρωινό μικτό τμήμα, για κάθε επίπεδο.</p><p class="cls-flag" hidden></p></div></li>
-          </ul>
+
+        <div class="hero-meta">
+          <a class="rating" id="rating" data-link="maps" href="https://www.google.com/maps/place/CHAMPS+KICKBOXING+CLUB/@37.9287967,23.7058763,17z/data=!3m1!4b1!4m6!3m5!1s0x14a1bd28fe6bd457:0x919b13afec4aba1b!8m2!3d37.9287925!4d23.7084566!16s%2Fg%2F11xf5dxsy9" target="_blank" rel="noopener">
+            <span class="rating-g" aria-hidden="true">G</span>
+            <span class="rating-stars" aria-hidden="true"><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg></span>
+            <span class="rating-text"><strong id="rating-value">5.0 στο Google</strong> <span id="rating-count">21 κριτικές</span></span>
+          </a>
+          <a class="text-link" href="#classes" data-i18n="hero.classes">Δες τα μαθήματα</a>
         </div>
       </div>
-      <p class="programme-note">Κυριακή κλειστά. Το πρόγραμμα μπορεί να αλλάξει σε αργίες· δες το Instagram μας για ανακοινώσεις.</p>
+
+      <div class="mosaic" role="group" data-i18n-attr="aria-label:hero.mosaic" aria-label="Φωτογραφίες από τις προπονήσεις στο Champs">
+        <figure class="tile tile-a">
+          <img src="assets/img/coach-pads.jpg" width="337" height="545" fetchpriority="high" alt="Προπονητής κρατά στόχους σε αθλητή που κάνει λάκτισμα με επικαλαμίδες, πάνω στο ρινγκ του Champs" data-i18n-attr="alt:alt.coachPads">
+          <figcaption class="tag" data-i18n="tag.kickboxing">Kickboxing</figcaption>
+        </figure>
+        <figure class="tile tile-b">
+          <img src="assets/img/sparring.jpg" width="337" height="545" alt="Δύο αθλητές με κράνος και γάντια κάνουν πυγμαχία στην αίθουσα" data-i18n-attr="alt:alt.sparring">
+          <figcaption class="tag" data-i18n="tag.boxing">Πυγμαχία</figcaption>
+        </figure>
+        <figure class="tile tile-c">
+          <img src="assets/img/team-event.jpg" width="311" height="390" alt="Αθλητές και προπονητές του Champs μαζί σε αγώνες" data-i18n-attr="alt:alt.teamEvent">
+          <figcaption class="tag" data-i18n="tag.team">Team Champs</figcaption>
+        </figure>
+        <figure class="tile tile-d">
+          <img src="assets/img/hall-bags.jpg" width="516" height="418" alt="Σειρά από μαύρους σάκους με το λογότυπο Champs στην αίθουσα" data-i18n-attr="alt:alt.bags">
+          <figcaption class="tag" data-i18n="tag.gym">Η αίθουσα</figcaption>
+        </figure>
+        <figure class="tile tile-e">
+          <img src="assets/img/pads-mirror.jpg" width="337" height="545" alt="Προπονητής κρατά στόχους σε αθλητή με χρυσά γάντια μπροστά στους καθρέφτες" data-i18n-attr="alt:alt.padsMirror">
+          <figcaption class="tag" data-i18n="tag.pads">Στόχοι</figcaption>
+        </figure>
+      </div>
     </div>
   </section>
 
-  <section class="points" id="tmimata" aria-labelledby="points-title">
-    <figure class="points-photo shutter" data-reveal>
-      <img src="assets/img/coach-pads.jpg" alt="Προπονητής κρατά στόχους σε αθλητή με προστατευτικά, πάνω στο ρινγκ με το λογότυπο CHAMPS" width="337" height="545" loading="lazy">
-    </figure>
-    <div class="points-body">
-      <h2 id="points-title" class="head" data-reveal>Τι θα βρεις εδώ</h2>
-      <ul class="point-list">
-        <li class="point" data-reveal style="--c:var(--ink)"><h3><span class="mark"></span>Ρινγκ αγώνων</h3><p>Πλήρες ρινγκ στη μέση της αίθουσας, για sparring και προετοιμασία αγώνων.</p></li>
-        <li class="point" data-reveal style="--c:var(--muted)"><h3><span class="mark"></span>Σειρά από σάκους</h3><p>Κρεμαστοί σάκοι σε σειρά, ώστε όλο το τμήμα να δουλεύει ταυτόχρονα.</p></li>
-        <li class="point" data-reveal style="--c:var(--led)"><h3><span class="mark"></span>Χρονόμετρο γύρων</h3><p>Οι γύροι μετράνε στο ρολόι του τοίχου, όπως σε αγώνα.</p></li>
-        <li class="point" data-reveal style="--c:var(--ink)"><h3><span class="mark"></span>Ομάδα αγώνων</h3><p>Όσοι θέλουν, ανεβαίνουν σε αγώνες με την ομάδα και τους προπονητές τους.</p></li>
-        <li class="point" data-reveal style="--c:var(--muted)"><h3><span class="mark"></span>Πρωινό τμήμα</h3><p>Κάθε μέρα στις 10:30, και το Σάββατο, για όσους δουλεύουν απογεύματα.</p></li>
-        <li class="point" data-reveal style="--c:var(--led)"><h3><span class="mark"></span>Παιδικό τμήμα</h3><p>Δευτέρα έως Παρασκευή, 17:30–18:30, με ασκήσεις στα μέτρα των παιδιών.</p></li>
-        <li class="point" data-reveal style="--c:var(--ink)"><h3><span class="mark"></span>Από το μηδέν</h3><p>Τα μικτά τμήματα δέχονται κάθε επίπεδο. Ξεκινάς από τη στάση και τα βασικά χτυπήματα.</p></li>
-        <li class="point" data-reveal style="--c:var(--muted)"><h3><span class="mark"></span>Sparring Τετάρτης</h3><p>Στις 20:30, ελεγχόμενο και με προστατευτικά, για όσους θέλουν να δοκιμαστούν.</p></li>
-        <li class="point" data-reveal style="--c:var(--led)"><h3><span class="mark"></span>Δύο αθλήματα</h3><p>Kickboxing και καθαρό boxing στην ίδια ομάδα, με cross training ανάμεσα.</p></li>
+  <!-- back to top: appears after the hero has scrolled away -->
+  <a class="backtop" id="backtop" href="#home" data-i18n-attr="aria-label:backtop" aria-label="Επιστροφή στην αρχή"><svg class="icon" aria-hidden="true"><use href="#i-up"/></svg></a>
+
+  <!-- 2. STATS -->
+  <section class="stats" aria-label="Το Champs σε αριθμούς" data-i18n-attr="aria-label:stats.label">
+    <div class="container stats-grid">
+      <!-- TODO: confirm the real years open -->
+      <div class="stat reveal"><p class="stat-num">5+</p><p class="stat-label" data-i18n="stats.years">Χρόνια λειτουργίας</p></div>
+      <!-- TODO: confirm. 26 is counted from the current weekly timetable poster -->
+      <div class="stat reveal"><p class="stat-num">26</p><p class="stat-label" data-i18n="stats.classes">Μαθήματα την εβδομάδα</p></div>
+      <!-- TODO: confirm the number of trainers -->
+      <div class="stat reveal"><p class="stat-num">3</p><p class="stat-label" data-i18n="stats.trainers">Προπονητές</p></div>
+    </div>
+  </section>
+
+  <!-- 3. CLASSES -->
+  <section class="section section--a" id="classes" aria-labelledby="classes-title">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2 id="classes-title" class="section-title" data-i18n="classes.title">Μαθήματα</h2>
+        <p class="section-intro" data-i18n="classes.intro">Πέντε προγράμματα, μία ομάδα. Ξεκίνα από αυτό που σου ταιριάζει και άλλαξε όποτε θέλεις.</p>
+      </div>
+
+      <div class="classes-grid">
+        <article class="class-card reveal">
+          <div class="class-photo"><img src="assets/img/coach-pads.jpg" width="337" height="545" loading="lazy" alt="Αθλητής κάνει λάκτισμα σε στόχους που κρατά ο προπονητής" data-i18n-attr="alt:alt.kb"></div>
+          <div class="class-body">
+            <h3 class="class-title" data-i18n="class.kb.title">Kickboxing</h3>
+            <p data-i18n="class.kb.desc">Χέρια, πόδια και γόνατα σε συνδυασμούς. Τεχνική, σάκος, στόχοι και φυσική κατάσταση σε κάθε μάθημα.</p>
+            <p class="class-for"><strong data-i18n="classes.for">Για ποιον</strong> <span data-i18n="class.kb.for">Ενήλικες κάθε επιπέδου, από αρχάριους μέχρι αθλητές αγώνων.</span></p>
+          </div>
+        </article>
+
+        <article class="class-card reveal">
+          <div class="class-photo"><img src="assets/img/sparring.jpg" width="337" height="545" loading="lazy" alt="Δύο αθλητές με γάντια πυγμαχίας και κράνος σε προπόνηση" data-i18n-attr="alt:alt.box"></div>
+          <div class="class-body">
+            <h3 class="class-title" data-i18n="class.box.title">Πυγμαχία</h3>
+            <p data-i18n="class.box.desc">Μόνο χέρια: στάση, κίνηση, άμυνα και ακρίβεια. Καθαρή τεχνική boxing με δουλειά στους στόχους.</p>
+            <p class="class-for"><strong data-i18n="classes.for">Για ποιον</strong> <span data-i18n="class.box.for">Όσους θέλουν τεχνική χεριών, γρήγορα αντανακλαστικά και αντοχή.</span></p>
+          </div>
+        </article>
+
+        <article class="class-card reveal">
+          <div class="class-photo"><img src="assets/img/hall-bags.jpg" width="516" height="418" loading="lazy" alt="Σάκοι προπόνησης κρεμασμένοι σε σειρά" data-i18n-attr="alt:alt.cross"></div>
+          <div class="class-body">
+            <h3 class="class-title" data-i18n="class.cross.title">Cross Training</h3>
+            <p data-i18n="class.cross.desc">Κυκλική προπόνηση δύναμης και αντοχής με σάκους, βάρη και ασκήσεις σώματος.</p>
+            <p class="class-for"><strong data-i18n="classes.for">Για ποιον</strong> <span data-i18n="class.cross.for">Όσους θέλουν φυσική κατάσταση και δύναμη, με ή χωρίς πολεμικές τέχνες.</span></p>
+          </div>
+        </article>
+
+        <article class="class-card reveal">
+          <div class="class-photo"><img src="assets/img/hall-night.jpg" width="516" height="418" loading="lazy" alt="Η αίθουσα του Champs με το ρινγκ και τα εξάγωνα φώτα" data-i18n-attr="alt:alt.gym"></div>
+          <div class="class-body">
+            <h3 class="class-title" data-i18n="class.gym.title">Gym / Fitness</h3>
+            <p data-i18n="class.gym.desc">Ελεύθερη προπόνηση στον χώρο, με καθοδήγηση από τους προπονητές όποτε τη χρειάζεσαι.</p>
+            <p class="class-for"><strong data-i18n="classes.for">Για ποιον</strong> <span data-i18n="class.gym.for">Όσους προτιμούν να γυμνάζονται με το δικό τους πρόγραμμα.</span></p>
+          </div>
+        </article>
+
+        <!-- Kids: the only place on the page with photos of children -->
+        <article class="class-card class-card--kids reveal" id="kids">
+          <div class="kids-photos">
+            <figure class="class-photo"><img src="assets/img/kid-stance.jpg" width="283" height="273" loading="lazy" alt="Μικρή αθλήτρια με κράνος και γάντια σε στάση μάχης" data-i18n-attr="alt:alt.kidStance"><figcaption class="tag" data-i18n="tag.kids">Παιδικό</figcaption></figure>
+            <figure class="class-photo"><img src="assets/img/kids-kick.jpg" width="337" height="545" loading="lazy" alt="Δύο νεαρές αθλήτριες με επικαλαμίδες εξασκούν λάκτισμα" data-i18n-attr="alt:alt.kidsKick"></figure>
+          </div>
+          <div class="class-body">
+            <h3 class="class-title" data-i18n="class.kids.title">Kickboxing για παιδιά</h3>
+            <p data-i18n="class.kids.desc">Ασφαλές, οργανωμένο kickboxing για παιδιά. Πειθαρχία, συντονισμός, αυτοπεποίθηση και πολύ κίνηση, σε ξεχωριστό τμήμα.</p>
+            <p class="class-for"><strong data-i18n="classes.for">Για ποιον</strong> <span data-i18n="class.kids.for">Παιδιά και εφήβους. Πες μας την ηλικία και θα προτείνουμε το σωστό τμήμα.</span></p>
+            <a class="btn btn-outline" href="#contact-form" data-i18n="hero.trial">Κλείσε δωρεάν δοκιμαστικό</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. GALLERY -->
+  <section class="section section--b" id="gallery" aria-labelledby="gallery-title">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2 id="gallery-title" class="section-title" data-i18n="gallery.title">Γκαλερί</h2>
+        <p class="section-intro" data-i18n="gallery.intro">Η αίθουσα, το ρινγκ και η ομάδα. Πάτησε μια φωτογραφία για μεγέθυνση.</p>
+      </div>
+      <ul class="gallery-grid">
+        <li class="g-item g-wide reveal"><button type="button" class="g-btn" data-full="assets/img/hall-ring.jpg"><img src="assets/img/hall-ring.jpg" width="516" height="418" loading="lazy" alt="Το ρινγκ με την κολόνα Champs και το πατάρι από πάνω" data-i18n-attr="alt:alt.ring"><span class="tag" data-i18n="tag.ring">Το ρινγκ</span></button></li>
+        <li class="g-item g-tall reveal"><button type="button" class="g-btn" data-full="assets/img/coach-pads.jpg"><img src="assets/img/coach-pads.jpg" width="337" height="545" loading="lazy" alt="Προπονητής κρατά στόχους σε αθλητή που κάνει λάκτισμα με επικαλαμίδες, πάνω στο ρινγκ του Champs" data-i18n-attr="alt:alt.coachPads"><span class="tag" data-i18n="tag.kickboxing">Kickboxing</span></button></li>
+        <li class="g-item reveal"><button type="button" class="g-btn" data-full="assets/img/hall-bags.jpg"><img src="assets/img/hall-bags.jpg" width="516" height="418" loading="lazy" alt="Σειρά από μαύρους σάκους με το λογότυπο Champs στην αίθουσα" data-i18n-attr="alt:alt.bags"><span class="tag" data-i18n="tag.bags">Σάκοι</span></button></li>
+        <li class="g-item g-tall reveal"><button type="button" class="g-btn" data-full="assets/img/sparring.jpg"><img src="assets/img/sparring.jpg" width="337" height="545" loading="lazy" alt="Δύο αθλητές με κράνος και γάντια κάνουν πυγμαχία στην αίθουσα" data-i18n-attr="alt:alt.sparring"><span class="tag" data-i18n="tag.boxing">Πυγμαχία</span></button></li>
+        <li class="g-item reveal"><button type="button" class="g-btn" data-full="assets/img/hall-night-wide.jpg"><img src="assets/img/hall-night.jpg" width="516" height="418" loading="lazy" alt="Η αίθουσα το βράδυ με τα εξάγωνα φώτα αναμμένα" data-i18n-attr="alt:alt.night"><span class="tag" data-i18n="tag.night">Το βράδυ</span></button></li>
+        <li class="g-item g-tall reveal"><button type="button" class="g-btn" data-full="assets/img/pads-mirror.jpg"><img src="assets/img/pads-mirror.jpg" width="337" height="545" loading="lazy" alt="Προπονητής κρατά στόχους σε αθλητή με χρυσά γάντια μπροστά στους καθρέφτες" data-i18n-attr="alt:alt.padsMirror"><span class="tag" data-i18n="tag.pads">Στόχοι</span></button></li>
+        <li class="g-item g-wide reveal"><button type="button" class="g-btn" data-full="assets/img/team-event.jpg"><img src="assets/img/team-event.jpg" width="311" height="390" loading="lazy" alt="Αθλητές και προπονητές του Champs μαζί σε αγώνες" data-i18n-attr="alt:alt.teamEvent"><span class="tag" data-i18n="tag.team">Team Champs</span></button></li>
       </ul>
     </div>
   </section>
 
-  <section class="hall wrap" id="xoros" aria-labelledby="hall-title">
-    <div class="hall-text">
-      <h2 id="hall-title" class="head" data-reveal>Ο χώρος</h2>
-      <p class="lead" data-reveal>Μια ψηλή αίθουσα με τζαμαρία στον δρόμο, πατάρι, γκρι δάπεδο και φως από τα εξάγωνα του ταβανιού. Πέρνα να τη δεις πριν γραφτείς.</p>
-    </div>
-    <figure class="frame" data-reveal>
-      <button class="frame-hex" type="button" aria-label="Επόμενη φωτογραφία">
-        <img class="is-on" src="assets/img/hall-ring.jpg" alt="Το ρινγκ με την κολόνα CHAMPS και το πατάρι από πάνω" width="516" height="418" data-cap="Το ρινγκ, κάτω από το πατάρι.">
-        <img src="assets/img/hall-bags.jpg" alt="Σειρά από μαύρους σάκους CHAMPS κρεμασμένους από ράγα" width="516" height="418" loading="lazy" data-cap="Οι σάκοι, στη σειρά.">
-        <img src="assets/img/team.jpg" alt="Η ομάδα του CHAMPS, ενήλικες και παιδιά, μπροστά στο ρινγκ κάτω από τα εξάγωνα φώτα" width="599" height="436" loading="lazy" data-cap="Η ομάδα, ενήλικες και παιδιά μαζί.">
-        <img src="assets/img/hall-night.jpg" alt="Η αίθουσα το βράδυ με τα εξάγωνα φώτα αναμμένα και τον τοίχο καθρεφτών" width="516" height="418" loading="lazy" data-cap="Το βράδυ, με τα εξάγωνα αναμμένα.">
-        <img src="assets/img/team-event.jpg" alt="Αθλητές και προπονητές του CHAMPS μαζί σε αγώνες, ένας με μετάλλιο" width="311" height="390" loading="lazy" data-cap="Η ομάδα, στους αγώνες.">
-        <img src="assets/img/pads-mirror.jpg" alt="Προπονητής κρατά στόχους σε αθλητή με χρυσά γάντια μπροστά στον τοίχο καθρεφτών" width="337" height="545" loading="lazy" data-cap="Στόχοι, μπροστά στους καθρέφτες.">
-        <img src="assets/img/sparring.jpg" alt="Δύο αθλητές με κράνος και γάντια κάνουν boxing μπροστά στο χρονόμετρο γύρων" width="337" height="545" loading="lazy" data-cap="Boxing, κάτω από το χρονόμετρο.">
-        <img src="assets/img/kid-stance.jpg" alt="Μικρή αθλήτρια με κράνος και ροζ γάντια σε στάση μάχης" width="283" height="273" loading="lazy" data-cap="Στάση μάχης, στο παιδικό.">
-        <img src="assets/img/kids-kick.jpg" alt="Δύο νεαρές αθλήτριες με επικαλαμίδες εξασκούν λάκτισμα" width="337" height="545" loading="lazy" data-cap="Λακτίσματα στο παιδικό τμήμα.">
-      </button>
-      <figcaption class="frame-cap" aria-live="polite">Το ρινγκ, κάτω από το πατάρι.</figcaption>
-    </figure>
-  </section>
-
-  <section class="faq wrap" id="erotiseis" aria-labelledby="faq-title">
-    <h2 id="faq-title" class="head faq-title" data-reveal>Πρώτη φορά;</h2>
-    <div class="tiles">
-      <details class="tile" name="faq" data-reveal open>
-        <summary>Χρειάζομαι εμπειρία;</summary>
-        <p>Όχι. Τα μικτά τμήματα δέχονται κάθε επίπεδο. Στο πρώτο μάθημα δουλεύεις στάση, κίνηση και τα βασικά χτυπήματα, με τον ρυθμό σου.</p>
-      </details>
-      <details class="tile" name="faq" data-reveal>
-        <summary>Τι να φέρω στο πρώτο μάθημα;</summary>
-        <p>Άνετα αθλητικά ρούχα, νερό και μια πετσέτα. Προπονούμαστε ξυπόλητοι. Αν έχεις γάντια και μπαντάζ φέρ’ τα· αν όχι, πες μας όταν κλείνεις το δοκιμαστικό.</p>
-      </details>
-      <details class="tile" name="faq" data-reveal>
-        <summary>Ποια η διαφορά kickboxing και boxing;</summary>
-        <p>Στο boxing δουλεύεις μόνο με τα χέρια. Στο kickboxing προστίθενται λακτίσματα και γόνατα. Τα μικτά τμήματα έχουν και τα δύο· Τρίτη και Πέμπτη στις 19:30 είναι μόνο boxing.</p>
-      </details>
-      <details class="tile" name="faq" data-reveal>
-        <summary>Από ποια ηλικία είναι το παιδικό;</summary>
-        <p>Το παιδικό τμήμα τρέχει Δευτέρα έως Παρασκευή, 17:30–18:30. Πες μας την ηλικία του παιδιού και θα σου πούμε αν ταιριάζει εκεί ή σε μικτό τμήμα.</p>
-      </details>
-      <details class="tile" name="faq" data-reveal>
-        <summary>Είναι υποχρεωτικό το sparring;</summary>
-        <p>Όχι. Το sparring γίνεται την Τετάρτη στις 20:30, ελεγχόμενα και με προστατευτικά, μόνο για όσους το θέλουν και είναι έτοιμοι.</p>
-      </details>
-      <details class="tile" name="faq" data-reveal>
-        <summary>Μπορώ να έρθω πρωί;</summary>
-        <p>Ναι. Δευτέρα έως Σάββατο στις 10:30 υπάρχει μικτό τμήμα kickboxing και boxing.</p>
-      </details>
-      <details class="tile" name="faq" data-reveal>
-        <summary>Πόσο κοστίζει η συνδρομή;</summary>
-        <p>Τα πακέτα συνδρομής τα λέμε στο τηλέφωνο ή από κοντά στο γυμναστήριο. Το δοκιμαστικό μάθημα το κλείνεις με τη φόρμα παρακάτω.</p>
-      </details>
+  <!-- 5. TRAINERS. TODO: real names, titles, bios and portrait photos -->
+  <section class="section section--a" id="trainers" aria-labelledby="trainers-title">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2 id="trainers-title" class="section-title" data-i18n="trainers.title">Προπονητές</h2>
+        <p class="section-intro" data-i18n="trainers.intro">Οι άνθρωποι που θα σε δουλέψουν στο ρινγκ και στους στόχους.</p>
+      </div>
+      <div class="trainers-grid">
+        <article class="trainer reveal">
+          <div class="trainer-photo"><img src="assets/img/trainer-1.jpg" width="170" height="230" loading="lazy" alt="Προπονητής του Champs στο ρινγκ" data-i18n-attr="alt:alt.trainer1"><span class="tag" data-i18n="trainer.1.role">Head Coach, Kickboxing</span></div>
+          <h3 class="trainer-name" data-i18n="trainer.1.name">Όνομα Προπονητή</h3>
+          <p class="trainer-role" data-i18n="trainer.1.role">Head Coach, Kickboxing</p>
+          <p data-i18n="trainer.1.bio">Σύντομο βιογραφικό: εμπειρία, αγώνες, πιστοποιήσεις και τι του αρέσει να διδάσκει.</p>
+        </article>
+        <article class="trainer reveal">
+          <div class="trainer-photo"><img src="assets/img/trainer-2.jpg" width="90" height="135" loading="lazy" alt="Προπονητής του Champs με τη μαύρη μπλούζα της ομάδας" data-i18n-attr="alt:alt.trainer2"><span class="tag" data-i18n="trainer.2.role">Προπονητής Πυγμαχίας</span></div>
+          <h3 class="trainer-name" data-i18n="trainer.2.name">Όνομα Προπονητή</h3>
+          <p class="trainer-role" data-i18n="trainer.2.role">Προπονητής Πυγμαχίας</p>
+          <p data-i18n="trainer.2.bio">Σύντομο βιογραφικό: εμπειρία, αγώνες, πιστοποιήσεις και τι του αρέσει να διδάσκει.</p>
+        </article>
+        <article class="trainer reveal">
+          <div class="trainer-photo"><img src="assets/img/trainer-3.jpg" width="100" height="150" loading="lazy" alt="Αθλητής του Champs με μετάλλιο σε αγώνες" data-i18n-attr="alt:alt.trainer3"><span class="tag" data-i18n="trainer.3.role">Προπονητής Cross Training</span></div>
+          <h3 class="trainer-name" data-i18n="trainer.3.name">Όνομα Προπονητή</h3>
+          <p class="trainer-role" data-i18n="trainer.3.role">Προπονητής Cross Training</p>
+          <p data-i18n="trainer.3.bio">Σύντομο βιογραφικό: εμπειρία, αγώνες, πιστοποιήσεις και τι του αρέσει να διδάσκει.</p>
+        </article>
+      </div>
     </div>
   </section>
 
-  <section class="contact wrap" id="epikoinonia" aria-labelledby="contact-title">
-    <form class="coupon" id="trial" action="mailto:info@champs-club.gr" method="get" enctype="text/plain" data-reveal>
-      <div class="coupon-left">
-        <h2 id="contact-title" class="coupon-title">Κλείσε το πρώτο<br> σου μάθημα</h2>
-        <p>Διάλεξε τμήμα και μέρα. Θα σε πάρουμε τηλέφωνο να επιβεβαιώσουμε, ή πάρε μας εσύ στο <a class="link-plain" href="tel:+302100000000">210&nbsp;000&nbsp;0000</a>.</p>
+  <!-- 6. HOURS. The list and the timetable are built by script.js from HOURS and TIMETABLE -->
+  <section class="section section--b" id="hours" aria-labelledby="hours-title">
+    <div class="container hours-grid">
+      <div class="hours-block reveal">
+        <h2 id="hours-title" class="section-title" data-i18n="hours.title">Ωράριο</h2>
+        <ul class="hours-list" id="hours-list">
+          <!-- TODO: placeholder hours, rebuilt by script.js. Edit the HOURS object in script.js -->
+          <li><span>Δευτέρα</span><span>17:00 – 22:00</span></li>
+          <li><span>Τρίτη</span><span>17:00 – 22:00</span></li>
+          <li><span>Τετάρτη</span><span>17:00 – 22:00</span></li>
+          <li><span>Πέμπτη</span><span>17:00 – 22:00</span></li>
+          <li><span>Παρασκευή</span><span>17:00 – 22:00</span></li>
+          <li><span>Σάββατο</span><span>10:00 – 14:00</span></li>
+          <li><span>Κυριακή</span><span class="closed">Κλειστά</span></li>
+        </ul>
+        <!-- TODO: upload the real schedule PDF as assets/schedule.pdf -->
+        <a class="btn btn-outline btn-block" href="assets/schedule.pdf" download><span data-i18n="hours.pdf">Κατέβασε το πρόγραμμα (PDF)</span><svg class="icon" aria-hidden="true"><use href="#i-download"/></svg></a>
       </div>
-      <div class="coupon-right">
-        <label class="sr-only" for="f-name">Όνομα</label>
-        <input class="field" id="f-name" name="name" type="text" placeholder="Όνομα" autocomplete="name" required>
-        <label class="sr-only" for="f-phone">Τηλέφωνο</label>
-        <input class="field" id="f-phone" name="phone" type="tel" placeholder="Τηλέφωνο" autocomplete="tel" required>
-        <label class="sr-only" for="f-class">Τμήμα</label>
-        <select class="field" id="f-class" name="class">
-          <option>Kickboxing &amp; Boxing (μικτό)</option>
-          <option>Boxing</option>
-          <option>Cross training</option>
-          <option>Παιδικό τμήμα</option>
-        </select>
-        <label class="sr-only" for="f-day">Μέρα</label>
-        <select class="field" id="f-day" name="day">
-          <option>Δευτέρα</option><option>Τρίτη</option><option>Τετάρτη</option><option>Πέμπτη</option><option>Παρασκευή</option><option>Σάββατο</option>
-        </select>
-        <button class="submit" type="submit">Κλείσε δοκιμαστικό</button>
+
+      <div class="timetable-block reveal">
+        <h3 class="sub-title" data-i18n="hours.timetable">Εβδομαδιαίο πρόγραμμα</h3>
+        <!-- TODO: confirm the timetable. It is copied from the current schedule poster; edit TIMETABLE in script.js -->
+        <div class="table-wrap" tabindex="0" role="region" data-i18n-attr="aria-label:hours.timetable" aria-label="Εβδομαδιαίο πρόγραμμα">
+          <table class="timetable" id="timetable"></table>
+        </div>
+        <p class="note" data-i18n="hours.ttNote">Το πρόγραμμα μπορεί να αλλάξει σε αργίες. Για ανακοινώσεις δες το Instagram μας.</p>
       </div>
-    </form>
+    </div>
+  </section>
+
+  <!-- 7. PRICING. TODO: real prices and what each plan includes -->
+  <section class="section section--a" id="pricing" aria-labelledby="pricing-title">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2 id="pricing-title" class="section-title" data-i18n="pricing.title">Τιμές</h2>
+        <p class="section-intro" data-i18n="pricing.intro">Απλές συνδρομές, χωρίς κρυφές χρεώσεις. Το πρώτο μάθημα είναι δωρεάν.</p>
+      </div>
+      <div class="pricing-grid">
+        <article class="plan reveal">
+          <h3 class="plan-name" data-i18n="plan.1.name">Μηνιαία</h3>
+          <p class="plan-price"><!-- TODO: price -->€50<span data-i18n="pricing.month">/μήνα</span></p>
+          <ul class="plan-list">
+            <li data-i18n="plan.1.f1">Απεριόριστα μαθήματα</li>
+            <li data-i18n="plan.1.f2">Kickboxing, πυγμαχία, cross training</li>
+            <li data-i18n="plan.1.f3">Χρήση του γυμναστηρίου</li>
+          </ul>
+          <a class="btn btn-outline btn-block" href="#contact-form" data-i18n="pricing.cta">Κλείσε δοκιμαστικό</a>
+        </article>
+        <article class="plan plan--featured reveal">
+          <p class="plan-flag" data-i18n="pricing.popular">Δημοφιλές</p>
+          <h3 class="plan-name" data-i18n="plan.2.name">Τρίμηνη</h3>
+          <p class="plan-price"><!-- TODO: price -->€135<span data-i18n="pricing.once">/3 μήνες</span></p>
+          <ul class="plan-list">
+            <li data-i18n="plan.2.f1">Απεριόριστα μαθήματα</li>
+            <li data-i18n="plan.2.f2">Όλα τα τμήματα ενηλίκων</li>
+            <li data-i18n="plan.2.f3">Καλύτερη τιμή ανά μήνα</li>
+          </ul>
+          <a class="btn btn-solid btn-block" href="#contact-form" data-i18n="pricing.cta">Κλείσε δοκιμαστικό</a>
+        </article>
+        <article class="plan reveal">
+          <h3 class="plan-name" data-i18n="plan.3.name">Παιδικό τμήμα</h3>
+          <p class="plan-price"><!-- TODO: price -->€40<span data-i18n="pricing.month">/μήνα</span></p>
+          <ul class="plan-list">
+            <li data-i18n="plan.3.f1">Μαθήματα Δευτέρα έως Παρασκευή</li>
+            <li data-i18n="plan.3.f2">Ξεχωριστό τμήμα για παιδιά</li>
+            <li data-i18n="plan.3.f3">Έκπτωση για αδέρφια</li>
+          </ul>
+          <a class="btn btn-outline btn-block" href="#contact-form" data-i18n="pricing.cta">Κλείσε δοκιμαστικό</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. CONTACT -->
+  <section class="section section--b" id="contact" aria-labelledby="contact-title">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2 id="contact-title" class="section-title" data-i18n="contact.title">Επικοινωνία</h2>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-card reveal">
+          <h3 class="contact-name" data-i18n="contact.card">Champs Kickboxing Club, Παλαιό Φάληρο</h3>
+          <p class="contact-line"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><span data-i18n="contact.address">Αχιλλέως 106, Παλαιό Φάληρο 175 63, Αθήνα</span></p>
+          <p class="contact-line"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg><a data-link="tel" href="tel:+306936697026"><span data-phone-text>693 669 7026</span></a></p>
+          <p class="contact-line contact-plus">Plus Code: WPH5+G9 Palaio Faliro</p>
+          <div class="contact-actions">
+            <a class="pill pill-red" data-link="maps" href="https://www.google.com/maps/place/CHAMPS+KICKBOXING+CLUB/@37.9287967,23.7058763,17z/data=!3m1!4b1!4m6!3m5!1s0x14a1bd28fe6bd457:0x919b13afec4aba1b!8m2!3d37.9287925!4d23.7084566!16s%2Fg%2F11xf5dxsy9" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-map"/></svg><span data-i18n="contact.map">Χάρτης</span></a>
+            <a class="pill" href="https://www.google.com/maps/dir/?api=1&amp;destination=37.9287925,23.7084566" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-route"/></svg><span data-i18n="contact.directions">Οδηγίες</span></a>
+            <a class="pill" data-link="instagram" href="https://www.instagram.com/champs_kickboxing_club/" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-insta"/></svg><span data-i18n="contact.instagram">Instagram</span></a>
+          </div>
+          <div class="map-wrap">
+            <iframe src="https://maps.google.com/maps?q=37.9287925,23.7084566&amp;z=17&amp;output=embed" title="Χάρτης: Champs Kickboxing Club, Αχιλλέως 106, Παλαιό Φάληρο" data-i18n-attr="title:contact.mapTitle" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <!--
+          TODO: connect the form. Two easy options:
+          1) Formspree: create a free form at https://formspree.io and replace YOUR_FORM_ID in the action below.
+          2) Netlify Forms: delete the action attribute and add  data-netlify="true"  to the <form> tag
+             (keep the hidden "form-name" input). Netlify then collects the submissions for you.
+          Until YOUR_FORM_ID is replaced, script.js shows a "call us" message instead of sending.
+        -->
+        <form class="trial-form reveal" id="contact-form" name="trial" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <input type="hidden" name="form-name" value="trial">
+          <h3 class="sub-title" data-i18n="form.title">Κλείσε δωρεάν δοκιμαστικό</h3>
+          <p class="form-intro" data-i18n="form.intro">Άφησε τα στοιχεία σου και θα σε καλέσουμε για να κανονίσουμε το πρώτο σου μάθημα.</p>
+          <p class="hp" aria-hidden="true"><label>Leave empty <input name="_gotcha" tabindex="-1" autocomplete="off"></label></p>
+          <div class="field">
+            <label for="f-name" data-i18n="form.name">Όνομα</label>
+            <input id="f-name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="f-phone" data-i18n="form.phone">Τηλέφωνο</label>
+            <input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required>
+          </div>
+          <div class="field">
+            <label for="f-email" data-i18n="form.email">Email (προαιρετικό)</label>
+            <input id="f-email" name="email" type="email" autocomplete="email">
+          </div>
+          <div class="field">
+            <label for="f-class" data-i18n="form.class">Μάθημα</label>
+            <select id="f-class" name="class">
+              <option value="Kickboxing" data-i18n="class.kb.title">Kickboxing</option>
+              <option value="Boxing" data-i18n="class.box.title">Πυγμαχία</option>
+              <option value="Cross Training" data-i18n="class.cross.title">Cross Training</option>
+              <option value="Gym" data-i18n="class.gym.title">Gym / Fitness</option>
+              <option value="Kids Kickboxing" data-i18n="class.kids.title">Kickboxing για παιδιά</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="f-msg" data-i18n="form.message">Μήνυμα (προαιρετικό)</label>
+            <textarea id="f-msg" name="message" rows="3"></textarea>
+          </div>
+          <button class="btn btn-solid btn-block" type="submit" data-i18n="form.submit">Στείλε</button>
+          <p class="form-status" id="form-status" role="status"></p>
+        </form>
+      </div>
+    </div>
   </section>
 
 </main>
 
 <footer class="footer">
-  <div class="wrap">
-    <img class="foot-logo" src="assets/img/logo-light.png" alt="CHAMPS Kickboxing – Boxing Club" width="1588" height="660" loading="lazy">
-    <div class="foot-grid">
-      <ul class="foot-links">
-        <li><a class="link" href="#programma">Πρόγραμμα</a></li>
-        <li><a class="link" href="#tmimata">Τμήματα</a></li>
-        <li><a class="link" href="#xoros">Ο χώρος</a></li>
-        <li><a class="link" href="#erotiseis">Ερωτήσεις</a></li>
-        <li><a class="link" href="https://www.instagram.com/" rel="noopener">Instagram</a></li>
-      </ul>
-      <div class="foot-hours">
-        <p>Δευτέρα–Παρασκευή<br>10:30–11:30 και 17:30–21:30</p>
-        <p>Σάββατο 10:30–11:30<br>Κυριακή κλειστά</p>
-      </div>
-      <address class="foot-address">
-        <p>CHAMPS Kickboxing – Boxing Club<br>Οδός Παραδείγματος 00, Αθήνα</p>
-        <p><a class="link" href="tel:+302100000000">210 000 0000</a><br><a class="link" href="mailto:info@champs-club.gr">info@champs-club.gr</a></p>
-      </address>
+  <div class="container">
+    <img class="footer-logo" src="assets/img/logo.png" width="800" height="332" loading="lazy" alt="Champs Kickboxing – Boxing Club">
+    <div class="footer-grid">
+      <p class="footer-line"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><span data-i18n="contact.address">Αχιλλέως 106, Παλαιό Φάληρο 175 63, Αθήνα</span></p>
+      <p class="footer-line"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg><a data-link="tel" href="tel:+306936697026"><span data-phone-text>693 669 7026</span></a></p>
+      <p class="footer-line"><svg class="icon" aria-hidden="true"><use href="#i-map"/></svg><a data-link="maps" href="https://www.google.com/maps/place/CHAMPS+KICKBOXING+CLUB/@37.9287967,23.7058763,17z/data=!3m1!4b1!4m6!3m5!1s0x14a1bd28fe6bd457:0x919b13afec4aba1b!8m2!3d37.9287925!4d23.7084566!16s%2Fg%2F11xf5dxsy9" target="_blank" rel="noopener" data-i18n="footer.maps">Google Maps</a></p>
+      <p class="footer-line"><svg class="icon" aria-hidden="true"><use href="#i-insta"/></svg><a data-link="instagram" href="https://www.instagram.com/champs_kickboxing_club/" target="_blank" rel="noopener">@champs_kickboxing_club</a></p>
     </div>
-    <div class="foot-last">
-      <p>© 2026 CHAMPS Kickboxing – Boxing Club</p>
-      <a class="button button-small" href="#top">Στην αρχή</a>
-    </div>
+    <p class="copyright">© <span id="year">2026</span> Champs Kickboxing Club, <span data-i18n="top.location">Παλαιό Φάληρο</span>. <span data-i18n="footer.rights">Όλα τα δικαιώματα διατηρούνται.</span></p>
   </div>
 </footer>
 
-<script src="main.js" defer></script>
+<!-- floating call button, always reachable -->
+<a class="float-call" data-link="tel" href="tel:+306936697026" data-i18n-attr="aria-label:floatCallAria" aria-label="Κάλεσε το Champs στο 693 669 7026">
+  <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg><span class="float-call-text" data-i18n="floatCall">Κάλεσε</span>
+</a>
+
+<!-- lightbox: an overlay on this page, not a new page -->
+<dialog class="lightbox" id="lightbox" data-i18n-attr="aria-label:lightbox.label" aria-label="Προβολή φωτογραφίας">
+  <figure class="lb-figure">
+    <img class="lb-img" id="lb-img" alt="">
+    <figcaption class="tag lb-cap" id="lb-cap"></figcaption>
+  </figure>
+  <button type="button" class="lb-btn lb-prev" id="lb-prev" data-i18n-attr="aria-label:lightbox.prev" aria-label="Προηγούμενη φωτογραφία"><svg class="icon" aria-hidden="true"><use href="#i-left"/></svg></button>
+  <button type="button" class="lb-btn lb-next" id="lb-next" data-i18n-attr="aria-label:lightbox.next" aria-label="Επόμενη φωτογραφία"><svg class="icon" aria-hidden="true"><use href="#i-right"/></svg></button>
+  <button type="button" class="lb-btn lb-close" id="lb-close" data-i18n-attr="aria-label:lightbox.close" aria-label="Κλείσιμο"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button>
+</dialog>
+
+<script src="translations.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
